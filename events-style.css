@@ -1,12 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
+body {
+    font-family: "Prata", serif;
+}
+
+
+/* section recherche */
+
 .recherche {
     background-image: url(file:///home/tanyalee/Bureau/BECODE/04.HTML%20-%20CSS/museum-project/images/inner-banner-bg-1-1.jpg);
+    display: flex;
+    flex-direction: column;
+    color: white;
 }
 
 h1 {
-    
+    font-weight: 500;
+    display: block;
+    border-bottom: 0.5px solid white;
+    padding: ;
 }
+
