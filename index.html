@@ -16,14 +16,14 @@
         <header>
             <nav class="navbar">
                 <div class="navbar__time">
-                    <p><i class="far fa-clock  orange__icon"></i> Plan your visit Today: 9 <sup>00</sup>  <span class="orange__icon">&#x2013;</span> 7 <sup>30</sup>
+                    <p><i class="far fa-clock  icon__orange"></i> Plan your visit Today: 9 <sup>00</sup>  <span class="icon__orange">&#x2013;</span> 7 <sup>30</sup>
                 </div>
 
                 <div class="navbar__plan">
                     <i class="far fa-map orange__icon"></i> Get direction</p>
                 </div>
 
-                    <ul class="media-icons">
+                <ul class="media-icons">
                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                     <li><a href="#"><i class="fab fa-instagram"></i></a></li>
@@ -32,8 +32,8 @@
 
                 <i class="fas fa-search navbar-loupe"></i>
 
-                <ul class="navbar-languages">
-                    <li>En</li>navbar-burger-menu
+                <ul class="navbar__languages">
+                    <li>En</li>
                     <li>Fr</li>
                     <li>Nl</li>
                     <li>De</li>
@@ -41,9 +41,9 @@
                     <li>It</li>
                 </ul>
 
-                <button class="orange-button"><a href="#">Tickets</a></button>
+                <button class="button--orange"><a href="#">Tickets</a></button>
 
-                <img src="images/light-logo.png" alt="light logo" class="navbar-light-logo">
+                <img src="images/light-logo.png" alt="light logo" class="navbar__light-logo">
 
                 <ul class="navbar-links">
                     <li>Home</li>
@@ -54,8 +54,8 @@
                     <li>Pages</li>
                     <li><i class="fas fa-shopping-cart"></i> <sup>3</sup></li>
                 </ul>
-                <i class="fas fa-stream navbar-burger-menu-desk"></i>
-                <i class="fas fa-bars navbar-burger-menu-mobile"></i>
+                <i class="fas fa-stream navbar__burger-menu-desk"></i>
+                <i class="fas fa-bars navbar__burger-menu-mobile"></i>
 
             </nav>
         </header>
@@ -67,9 +67,9 @@
             <h2>World's Leading Museum of Hitory<br>Over 2.3 k Collection</h2>
             <p>Let Your Inner Light Grow With the Silence of History</p>
             <button>FIND OUT MORE</button>
-            <img src="images/slider-1-1.jpg" alt="Man looking at a painting" class="slider-1-1"/>
-            <img src="images/slider-1-2.jpg" alt="Paintings serie" class="slider-1-2"/>
-            <img src="images/slider-1-3.jpg" alt="Statue of a Union horseman" class="slider-1-3"/>
+            <img src="images/slider-1-1.jpg" alt="Man looking at a painting" class="slider-home__slider-1-1"/>
+            <img src="images/slider-1-2.jpg" alt="Paintings serie" class="slider-home__slider-1-2"/>
+            <img src="images/slider-1-3.jpg" alt="Statue of a Union horseman" class="slider-home__slider-1-3"/>
         </section>
 
         <!-- fin silder home  -->
@@ -86,10 +86,10 @@
 
             <button> More details </button>
 
-            <img src="images/about-2-1.jpg" alt="photo-about-1">
-            <img src="images/about-2-2.jpg" alt="photo about-2">
-            <div class="orange"></div>
-            <div class="date"></div>
+            <img src="images/about-2-1.jpg" alt="photo-about-1" class="about-us__photo-about-1">
+            <img src="images/about-2-2.jpg" alt="photo-about-2" class="about-us__photo-about-2">
+            <div class="about-us__orange"></div>
+            <div class="about-us__date"></div>
 
         </section>
 
@@ -101,7 +101,7 @@
             <h2>Exhibition</h2>
             <h3>Ongoing Exhibitions</h3>
 
-            <div class="exhibition-1">
+            <div class="exhibition__div-1">
                 <img src="images/collections-3-1.jpg" alt="photo-collection-1">
                 <h5>Exhibition</h5>
                 <p class="titre-ehxibition">The Exhibits Cover All Time of The Egyptian Civilization.</p>
@@ -109,7 +109,7 @@
                 <button>Read more</button>
             </div>
 
-            <div class="exhibition-2">
+            <div class="exhibition__div-2">
                 <img src="images/collections-3-2.jpg" alt="photo-collection-2">
                 <h5>Exhibition</h5>
                 <p class="titre-ehxibition">Hadiran and Athens. Conversing with an Ideal World.</p>
@@ -117,7 +117,7 @@
                 <button>Read more</button>
             </div>
 
-            <div class="exhibition-3">
+            <div class="exhibition__div-3">
                 <img src="images/collections-3-3.jpg" alt="photo-collection-3">
                 <h5>Exhibition</h5>
                 <p class="titre-ehxibition">Classicita ed Europa. The common destiny of Greeceand Italy.</p>
@@ -134,25 +134,25 @@
     <section class="events">
         <h2>EVENTS</h2>
         <h3>Events & <br/>Program Schedule</h3>
-        <button class="event-nav">1.   Current</button>
-        <button class="event-nav">2.   Upcoming</button>
-        <button class="event-nav">3.   Past</button>
+        <button class="events__nav">1.   Current</button>
+        <button class="events__nav">2.   Upcoming</button>
+        <button class="events__nav">3.   Past</button>
         <p><a href="#">VIEW ALL UPCOMING EVENTS +</a></p>
-        <div class="first-event">
+        <div class="events__first-event">
             <img src="images/event-2-1.jpg" alt="Master's painting" class="event-2-1"/>  <!-- !!! Est-ce que je le transforme en figure? !!! -->
             <p><span class="event-date">24 </span>OCT<br/>THURSDAY</p>
             <p><span class="event-descript">Weekend Drop-In Sessions in the Sackler Lab</span></p>
             <p><span class="event-address">48 Market St, San Francisco, CA 94104</span></p>
             <p><a href="#">MORE DETAILS</a></p>
         </div>
-        <div class="second-event">
+        <div class="events__second-event">
             <img src="images/event-2-2.jpg" alt="Master's painting" class="event-2-2"/>
             <p><span class="event-date">06 </span>NOV<br/>WEDNESDAY</p>
             <p><span class="event-descript">Celebrating International Museum Day 2019</span></p>
             <p><span class="event-address">9500 Gilman Drive La Jolla, CA 92093</span></p>
             <p><a href="#">MORE DETAILS</a></p>
         </div>
-        <div class="third-event">
+        <div class="events__third-event">
             <img src="images/event-2-3.jpg" alt="Master's painting" class="event-2-3"/>
             <p><span class="event-date"></span>24 <span class="event-day">NOV<br/>SATURDAY</span></p>
             <p><span class="event-descript">European Paintings Renaissance to Revolution</span></p>
@@ -165,7 +165,7 @@
 
     <!-- Become a member... Austin-->
 
-    <section class="Become-a-member">
+    <section class="become-a-member">
         <img src="images/video-1-1.jpg" alt="video-1-1"> <i class="fas fa-play"></i>
         <h3>Become a Member of Egypt</h3>
         <ul>
@@ -173,54 +173,54 @@
             <li>Free Tickets to Special Exhibitions</li>
             <li>Acces to a member Entrance</li>
         </ul>
-        <button>Become a member</button>
+        <button class="become-a-member__button">Become a member</button>
     </section>
 
     <!-- fin become a member -->
 
     <!-- discover the collection gaetan  -->
 
-        <section class="discover-collection">
+        <section class="discover">
             <h2>Collections</h2>
             <h3>Discover The Collection</h3>
             <div>
                 <figure>
-                    <img src="images/collections-2-1.jpg" alt="St. Catherine Alexandria in Prison" class="collections-2-1"/>
+                    <img src="images/collections-2-1.jpg" alt="St. Catherine Alexandria in Prison" class="discover__collections-2-1"/>
                     <figcaption>St. Catherine<br/>Alexandria in Prison</figcaption>
                 </figure>
                 <img src="images/collections-link-decor-1-1.png" alt="collections-link-decor-1-1">
             </div>
             <div>
                 <figure>
-                    <img src="images/collections-2-2.jpg" alt="Alexandria in Prison" class="collections-2-2"/>
+                    <img src="images/collections-2-2.jpg" alt="Alexandria in Prison" class="discover__collections-2-2"/>
                     <figcaption>Alexandria in Prison</figcaption>
                 </figure>
                 <img src="images/collections-link-decor-1-1.png" alt="collections-link-decor-1-1">
             </div>
             <div>
                 <figure>
-                    <img src="images/collections-2-3.jpg" alt="The lascaux Cave" class="collections-2-3"/>
+                    <img src="images/collections-2-3.jpg" alt="The lascaux Cave" class="discover__collections-2-3"/>
                     <figcaption>The lascaux Cave</figcaption> 
                 </figure>
                 <img src="images/collections-link-decor-1-1.png" alt="collections-link-decor-1-1">
             </div>
             <div>
                 <figure>
-                    <img src="images/collections-2-4.jpg" alt="Mercenary Soldiers In Ottoman" class="collections-2-4"/>
+                    <img src="images/collections-2-4.jpg" alt="Mercenary Soldiers In Ottoman" class="discover__collections-2-4"/>
                     <figcaption>Mercenary Soldiers<br/>In Ottoman</figcaption>
                 </figure>
                 <img src="images/collections-link-decor-1-1.png" alt="collections-link-decor-1-1">
             </div>
             <div>
                 <figure>
-                    <img src="images/collections-2-5.jpg" alt="Mare and Foal" class="collections-2-5"/>
+                    <img src="images/collections-2-5.jpg" alt="Mare and Foal" class="discover__collections-2-5"/>
                     <figcaption>Mare and Foal</figcaption>
                 </figure>
                 <img src="images/collections-link-decor-1-1.png" alt="collections-link-decor-1-1">
             </div>
             <div>
                 <figure>
-                    <img src="images/collections-2-6.jpg" alt="Tower of Babel (Babylon)" class="collections-2-6"/>
+                    <img src="images/collections-2-6.jpg" alt="Tower of Babel (Babylon)" class="discover__collections-2-6"/>
                     <figcaption>Tower of Babel (Babylon)</figcaption>
                 </figure>
                 <img src="images/collections-link-decor-1-1.png" alt="collections-link-decor-1-1">
@@ -233,17 +233,17 @@
         <!-- fin collection  -->
 
         <!-- visite Austin  -->
-        <section class="visite">
-            <div class="visite-exhibition">
+        <section class="visit">
+            <div class="visit__exhibition">
                 <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iQ2FwYV8xIiBlbmFibGUtYmFja2dyb3VuZD0ibmV3IDAgMCA0NTAuODIzIDQ1MC44MjMiIGhlaWdodD0iNTEyIiB2aWV3Qm94PSIwIDAgNDUwLjgyMyA0NTAuODIzIiB3aWR0aD0iNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im00NTAuODIzIDMwOS45NDFjLTU1LjUgMC04NC41MjktMjEuMjU2LTg0LjUyOS00Mi4yNjUgMC03Ljc4Ny02LjMwMS0xNC4wODgtMTQuMDg4LTE0LjA4OHMtMTQuMDg4IDYuMzAxLTE0LjA4OCAxNC4wODhjMCAxNi42ODgtNTAuNDkyIDQyLjI2NS0xMTIuNzA2IDQyLjI2NXMtMTEyLjcwNi0yNS41NzYtMTEyLjcwNi00Mi4yNjVjMC03Ljc4Ny02LjMwMS0xNC4wODgtMTQuMDg4LTE0LjA4OHMtMTQuMDg4IDYuMzAxLTE0LjA4OCAxNC4wODhjMCAyMS4wMDktMjkuMDI5IDQyLjI2NS04NC41MjkgNDIuMjY1djI4LjE3NmMzOC4zMDMgMCA2Ni4wNzYtOC42MTYgODQuNTI5LTIxLjQ4OHYxMzQuMTk0aDI4LjE3NnYtMTQxLjM2OWMyNy40MjcgMTcuOTc4IDcwLjk0OSAyOC42NjMgMTEyLjcwNiAyOC42NjNzODUuMjc5LTEwLjY4NSAxMTIuNzA2LTI4LjY2M3YxNDEuMzY5aDI4LjE3NnYtMTM0LjE5NmMxOC40NTUgMTIuODcyIDQ2LjIyNyAyMS40OSA4NC41MjkgMjEuNDl6Ii8+PHBhdGggZD0ibTIxNy4xNTkgNjQuNjA2YzExLjAwNCAxMS4wMDQgMTEuMDA0IDI4Ljg0NCAwIDM5Ljg0Ny0xMS4wMDQgMTEuMDA0LTI4Ljg0NCAxMS4wMDQtMzkuODQ3IDAtMTEuMDA0LTExLjAwNC0xMS4wMDQtMjguODQ0IDAtMzkuODQ3IDExLjAwMy0xMS4wMDQgMjguODQ0LTExLjAwNCAzOS44NDcgMCIvPjxwYXRoIGQ9Im05OC42MTggMjI1LjQxMmgyNTMuNTg4YzcuNzg3IDAgMTQuMDg4LTYuMzAxIDE0LjA4OC0xNC4wODh2LTE5Ny4yMzZjMC03Ljc4Ny02LjMwMS0xNC4wODgtMTQuMDg4LTE0LjA4OGgtMjUzLjU4OGMtNy43ODcgMC0xNC4wODggNi4zMDEtMTQuMDg4IDE0LjA4OHYxOTcuMjM1Yy0uMDAxIDcuNzg4IDYuMzAxIDE0LjA4OSAxNC4wODggMTQuMDg5em0xMzIuNjQ2LTI4LjE3NyA1MC41MDEtNTAuNTIgNTAuNTIgNTAuNTJ6bS0xMTguNTU4LTE2OS4wNThoMjI1LjQxMnYxMzUuMDQ5bC00Ni4zOTItNDYuMzkyYy01LjI4My01LjI4My0xNC42MzktNS4yODMtMTkuOTIyIDBsLTgwLjM3NiA4MC40MDJoLTc4LjcyMnoiLz48L3N2Zz4=" />
             <p><h5>245</h5>EXHIBITIONS <br>Has Been Held </p></div>
-            <div class="visite-visitors">
+            <div class="visit__visitors">
                 <img src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIC00MCA1MTIuMDAwNjYgNTEyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Im0zMzUuODQ3NjU2IDE3Mi40NzY1NjJjLTQuNDA2MjUgMC04LjQ0MTQwNi0yLjkzNzUtOS42NDQ1MzEtNy4zOTQ1MzEtMS40NDE0MDYtNS4zMzIwMzEgMS43MTA5MzctMTAuODI0MjE5IDcuMDQyOTY5LTEyLjI2MTcxOWwuNDA2MjUtLjEwOTM3NGM1LjM0Mzc1LTEuMzk4NDM4IDEwLjgwODU5NCAxLjgwMDc4MSAxMi4yMDMxMjUgNy4xNDg0MzcgMS4zOTg0MzcgNS4zMzk4NDQtMS44MDQ2ODggMTAuODA0Njg3LTcuMTQ0NTMxIDEyLjE5OTIxOWwtLjI0NjA5NC4wNjY0MDZjLS44NzEwOTQuMjM4MjgxLTEuNzUuMzUxNTYyLTIuNjE3MTg4LjM1MTU2MnptMCAwIi8+PHBhdGggZD0ibTQwMy4yMTQ4NDQgMjY4LjQ3NjU2MmMtNC43NTM5MDYgMC05LjQ0NTMxMy0xLjI0NjA5My0xMy42NzU3ODItMy42ODc1LTYuMzQ3NjU2LTMuNjY0MDYyLTEwLjg4NjcxOC05LjU4MjAzMS0xMi43ODUxNTYtMTYuNjYwMTU2LTEuNDI5Njg3LTUuMzM1OTM3IDEuNzM4MjgyLTEwLjgxNjQwNiA3LjA3NDIxOS0xMi4yNDYwOTQgNS4zMzIwMzEtMS40MzM1OTMgMTAuODE2NDA2IDEuNzM0Mzc2IDEyLjI0NjA5NCA3LjA3MDMxMy41MTU2MjUgMS45MTc5NjkgMS43NDYwOTMgMy41MjM0MzcgMy40Njg3NSA0LjUxNTYyNSAxLjcxODc1Ljk5NjA5NCAzLjcyNjU2MiAxLjI1NzgxMiA1LjY0MDYyNS43NDIxODggMS45MjE4NzUtLjUxMTcxOSAzLjUyNzM0NC0xLjc0MjE4OCA0LjUxOTUzMS0zLjQ2NDg0NC45OTYwOTQtMS43MTg3NSAxLjI1NzgxMy0zLjcyNjU2My43NDIxODctNS42NDQ1MzItMS40Mjk2ODctNS4zMzU5MzcgMS43MzgyODItMTAuODE2NDA2IDcuMDc0MjE5LTEyLjI0NjA5MyA1LjMzMjAzMS0xLjQzMzU5NCAxMC44MTY0MDcgMS43MzQzNzUgMTIuMjQ2MDk0IDcuMDcwMzEyIDEuODk4NDM3IDcuMDc4MTI1LjkyMTg3NSAxNC40NzI2NTctMi43NDIxODcgMjAuODIwMzEzLTMuNjY0MDYzIDYuMzQ3NjU2LTkuNTgyMDMyIDEwLjg4NjcxOC0xNi42NjAxNTcgMTIuNzg1MTU2LTIuMzY3MTg3LjYzMjgxMi00Ljc2NTYyNS45NDUzMTItNy4xNDg0MzcuOTQ1MzEyem0wIDAiLz48cGF0aCBkPSJtMzE2LjcxNDg0NCAyOTEuNjU2MjVjLTQuNzUzOTA2IDAtOS40NDUzMTMtMS4yNS0xMy42NzU3ODItMy42ODc1LTYuMzQ3NjU2LTMuNjY0MDYyLTEwLjg4NjcxOC05LjU4MjAzMS0xMi43ODUxNTYtMTYuNjY0MDYyLTEuNDI5Njg3LTUuMzMyMDMyIDEuNzM4MjgyLTEwLjgxNjQwNyA3LjA3NDIxOS0xMi4yNDYwOTQgNS4zMzIwMzEtMS40MzM1OTQgMTAuODE2NDA2IDEuNzM0Mzc1IDEyLjI0NjA5NCA3LjA3MDMxMi41MTU2MjUgMS45MTc5NjkgMS43NDYwOTMgMy41MjM0MzggMy40Njg3NSA0LjUxNTYyNSAxLjcxODc1Ljk5NjA5NCAzLjcyMjY1NiAxLjI1NzgxMyA1LjY0NDUzMS43NDIxODggMS45MTc5NjktLjUxMTcxOSAzLjUyMzQzOC0xLjc0MjE4OCA0LjUxNTYyNS0zLjQ2NDg0NC45OTYwOTQtMS43MjI2NTYgMS4yNTc4MTMtMy43MjY1NjMuNzQyMTg3LTUuNjQ0NTMxLTEuNDI5Njg3LTUuMzM1OTM4IDEuNzM4MjgyLTEwLjgxNjQwNiA3LjA3NDIxOS0xMi4yNDYwOTQgNS4zMzIwMzEtMS40MzM1OTQgMTAuODE2NDA3IDEuNzM0Mzc1IDEyLjI0NjA5NCA3LjA3MDMxMiAxLjg5ODQzNyA3LjA3ODEyNi45MjE4NzUgMTQuNDcyNjU3LTIuNzQyMTg3IDIwLjgyMDMxMy0zLjY2NDA2MyA2LjM0NzY1Ni05LjU4MjAzMiAxMC44ODY3MTktMTYuNjYwMTU3IDEyLjc4NTE1Ni0yLjM2NzE4Ny42MzY3MTktNC43NjU2MjUuOTQ5MjE5LTcuMTQ4NDM3Ljk0OTIxOXptMCAwIi8+PHBhdGggZD0ibTM3Ni45NDE0MDYgMzU3LjE3NTc4MWMtNy4xMjUgMC0xNC4xNTIzNDQtMS44NjcxODctMjAuNDg4MjgxLTUuNTI3MzQzLTkuNTA3ODEzLTUuNDg4MjgyLTE2LjMwODU5NC0xNC4zNTE1NjMtMTkuMTQ4NDM3LTI0Ljk1NzAzMi0xLjQyOTY4OC01LjMzNTkzNyAxLjczNDM3NC0xMC44MjAzMTIgNy4wNzAzMTItMTIuMjUgNS4zMzU5MzgtMS40Mjk2ODcgMTAuODE2NDA2IDEuNzM4MjgyIDEyLjI0NjA5NCA3LjA3NDIxOSAxLjQ2MDkzNyA1LjQ0MTQwNiA0Ljk1MzEyNSA5Ljk5NjA5NCA5LjgzNTkzNyAxMi44MTI1IDQuODc4OTA3IDIuODE2NDA2IDEwLjU2NjQwNyAzLjU2NjQwNiAxNi4wMTE3MTkgMi4xMDkzNzUgMTEuMjQyMTg4LTMuMDExNzE5IDE3LjkzNzUtMTQuNjA5Mzc1IDE0LjkyNTc4MS0yNS44NTE1NjItMS40Mjk2ODctNS4zMzIwMzIgMS43MzQzNzUtMTAuODE2NDA3IDcuMDcwMzEzLTEyLjI0NjA5NCA1LjMzMjAzMS0xLjQzMzU5NCAxMC44MTY0MDYgMS43MzgyODEgMTIuMjQ2MDk0IDcuMDcwMzEyIDUuODY3MTg3IDIxLjg5NDUzMi03LjE3MTg3NiA0NC40ODA0NjktMjkuMDY2NDA3IDUwLjM0Mzc1LTMuNTM5MDYyLjk1MzEyNS03LjEzMjgxMiAxLjQyMTg3NS0xMC43MDMxMjUgMS40MjE4NzV6bTAgMCIvPjxwYXRoIGQ9Im01MDcuMTQ4NDM4IDI1My4yMDMxMjVjLTE1Ljg1MTU2My01OS4xNTYyNS02Ny41NDY4NzYtMTAxLjM1NTQ2OS0xMjguNjQwNjI2LTEwNS4wMTE3MTktNS41MjM0MzctLjMyMDMxMi0xMC4yNSAzLjg3NS0xMC41NzgxMjQgOS4zODY3MTktLjMyODEyNiA1LjUxNTYyNSAzLjg3MTA5MyAxMC4yNSA5LjM4NjcxOCAxMC41ODIwMzEgNTIuNDgwNDY5IDMuMTM2NzE5IDk2Ljg5NDUzMiAzOS4zOTQ1MzIgMTEwLjUxMTcxOSA5MC4yMTg3NSAxNy40MDYyNSA2NC45NjQ4NDQtMjEuMjg1MTU2IDEzMS45NzY1NjMtODYuMjQ2MDk0IDE0OS4zODI4MTMtMTAuMzg2NzE5IDIuNzg1MTU2LTIwLjkxNDA2MiA0LjEyNS0zMS4zMzIwMzEgNC4xMjUtNDAuODIwMzEyIDAtODAuMDExNzE5LTIwLjU4NTkzOC0xMDIuNzEwOTM4LTU1LjcyMjY1NyAxMC40NjQ4NDQtMTkuNzc3MzQzIDE2LjQwNjI1LTQyLjI5Njg3NCAxNi40MDYyNS02Ni4xODM1OTNzLTUuOTM3NS00Ni40MDYyNS0xNi40MDIzNDMtNjYuMTc5Njg4YzkuNTcwMzEyLTE0LjgyNDIxOSAyMi4zNzUtMjcuNTUwNzgxIDM3LjE5NTMxMi0zNi45Mjk2ODcgNC42NjQwNjMtMi45NTMxMjUgNi4wNTQ2ODgtOS4xMzI4MTMgMy4xMDE1NjMtMTMuODAwNzgyLTIuOTUzMTI1LTQuNjY0MDYyLTkuMTMyODEzLTYuMDU0Njg3LTEzLjc5Njg3NS0zLjEwMTU2Mi0xNC42OTUzMTMgOS4zMDA3ODEtMjcuNjgzNTk0IDIxLjQyMTg3NS0zOC4wOTM3NSAzNS40NjA5MzgtMjUuODk4NDM4LTM0LjgyMDMxMy02Ny4zNDM3NS01Ny40MjE4NzYtMTEzLjk3NjU2My01Ny40MjE4NzYtNzguMjg1MTU2IDAtMTQxLjk3MjY1NiA2My42ODc1LTE0MS45NzI2NTYgMTQxLjk3MjY1NyAwIDc4LjI4NTE1NiA2My42ODc1IDE0MS45NzI2NTYgMTQxLjk3MjY1NiAxNDEuOTcyNjU2IDQ2LjY0NDUzMiAwIDg4LjEwNTQ2OS0yMi42MTMyODEgMTE0LTU3LjQ1MzEyNSAxNS4yNTc4MTMgMjAuNTAzOTA2IDM2LjA3ODEyNSAzNi44Mzk4NDQgNTkuODM1OTM4IDQ2LjY3MTg3NSAxNy4zODY3MTggNy4xOTUzMTMgMzUuNjI4OTA2IDEwLjgxNjQwNiA1NC4wMDM5MDYgMTAuODE2NDA2IDEyLjMyODEyNSAwIDI0LjcxODc1LTEuNjI4OTA2IDM2Ljk0NTMxMi00LjkwNjI1IDc1LjYxMzI4Mi0yMC4yNjE3MTkgMTIwLjY1MjM0NC05OC4yNjU2MjUgMTAwLjM5MDYyNi0xNzMuODc4OTA2em0tMzY1LjE3NTc4MiAxNTguNzQ2MDk0Yy02Ny4yNTc4MTIgMC0xMjEuOTcyNjU2LTU0LjcxNDg0NC0xMjEuOTcyNjU2LTEyMS45Njg3NSAwLTY3LjI1MzkwNyA1NC43MTQ4NDQtMTIxLjk3MjY1NyAxMjEuOTcyNjU2LTEyMS45NzI2NTcgNjcuMjUzOTA2IDAgMTIxLjk2ODc1IDU0LjcxODc1IDEyMS45Njg3NSAxMjEuOTcyNjU3IDAgNjcuMjUzOTA2LTU0LjcxNDg0NCAxMjEuOTY4NzUtMTIxLjk2ODc1IDEyMS45Njg3NXptMCAwIi8+PHBhdGggZD0ibTExNC42MzY3MTkgMjc4Ljc2OTUzMWMtNS41MjM0MzggMC0xMC4wMDM5MDctNC40NzY1NjItMTAuMDAzOTA3LTEwIDAtNC4xMDE1NjItMy4zMzU5MzctNy40Mzc1LTcuNDM3NS03LjQzNzUtNC4xMDE1NjIgMC03LjQzNzUgMy4zMzU5MzgtNy40Mzc1IDcuNDM3NSAwIDUuNTIzNDM4LTQuNDc2NTYyIDEwLTEwIDEwLTUuNTIzNDM3IDAtMTAtNC40NzY1NjItMTAtMTAgMC0xNS4xMjg5MDYgMTIuMzA4NTk0LTI3LjQzNzUgMjcuNDM3NS0yNy40Mzc1IDE1LjEyODkwNyAwIDI3LjQ0MTQwNyAxMi4zMDg1OTQgMjcuNDQxNDA3IDI3LjQzNzUgMCA1LjUyMzQzOC00LjQ4MDQ2OSAxMC0xMCAxMHptMCAwIi8+PHBhdGggZD0ibTIwNC4xODc1IDI3OC43Njk1MzFjLTUuNTIzNDM4IDAtMTAtNC40NzY1NjItMTAtMTAgMC00LjEwMTU2Mi0zLjMzNTkzOC03LjQzNzUtNy40Mzc1LTcuNDM3NXMtNy40Mzc1IDMuMzM1OTM4LTcuNDM3NSA3LjQzNzVjMCA1LjUyMzQzOC00LjQ4MDQ2OSAxMC0xMCAxMC01LjUyMzQzOCAwLTEwLjAwMzkwNi00LjQ3NjU2Mi0xMC4wMDM5MDYtMTAgMC0xNS4xMjg5MDYgMTIuMzEyNS0yNy40Mzc1IDI3LjQ0MTQwNi0yNy40Mzc1czI3LjQzNzUgMTIuMzA4NTk0IDI3LjQzNzUgMjcuNDM3NWMwIDUuNTIzNDM4LTQuNDc2NTYyIDEwLTEwIDEwem0wIDAiLz48cGF0aCBkPSJtMTQxLjk3MjY1NiAzNTguMTA5Mzc1Yy0yMi42Njc5NjggMC00MS4xMDU0NjgtMTguNDM3NS00MS4xMDU0NjgtNDEuMTA1NDY5IDAtNS41MTk1MzEgNC40NzY1NjItMTAgMTAtMTAgNS41MjM0MzcgMCAxMCA0LjQ4MDQ2OSAxMCAxMCAwIDExLjY0MDYyNSA5LjQ2ODc1IDIxLjEwNTQ2OSAyMS4xMDU0NjggMjEuMTA1NDY5IDExLjYzNjcxOSAwIDIxLjEwNTQ2OS05LjQ2ODc1IDIxLjEwNTQ2OS0yMS4xMDU0NjkgMC01LjUxOTUzMSA0LjQ3NjU2My0xMCAxMC0xMHMxMCA0LjQ4MDQ2OSAxMCAxMGMwIDIyLjY2Nzk2OS0xOC40NDE0MDYgNDEuMTA1NDY5LTQxLjEwNTQ2OSA0MS4xMDU0Njl6bTAgMCIvPjxwYXRoIGQ9Im0yNTYuMTY0MDYyIDY3Ljc0MjE4OGMtNS41MjM0MzcgMC0xMC00LjQ4MDQ2OS0xMC0xMHYtNDcuNzQyMTg4YzAtNS41MjM0MzggNC40NzY1NjMtMTAgMTAtMTAgNS41MjM0MzggMCAxMCA0LjQ3NjU2MiAxMCAxMHY0Ny43NDIxODhjMCA1LjUyMzQzNy00LjQ3NjU2MiAxMC0xMCAxMHptMCAwIi8+PHBhdGggZD0ibTI1Ni4xNjAxNTYgMTA5Ljk3MjY1NmMtMi42MzI4MTIgMC01LjIwMzEyNS0xLjA3MDMxMi03LjA3MDMxMi0yLjkyOTY4Ny0xLjg2MzI4Mi0xLjg1OTM3NS0yLjkyMTg3NS00LjQzNzUtMi45MjE4NzUtNy4wNzAzMTMgMC0yLjYyODkwNiAxLjA1ODU5My01LjIxMDkzNyAyLjkyMTg3NS03LjA3MDMxMiAxLjg2NzE4Ny0xLjg1OTM3NSA0LjQzNzUtMi45Mjk2ODggNy4wNzAzMTItMi45Mjk2ODggMi42MzY3MTkgMCA1LjIwNzAzMiAxLjA3MDMxMyA3LjA3MDMxMyAyLjkyOTY4OCAxLjg2NzE4NyAxLjg1OTM3NSAyLjkyOTY4NyA0LjQ0MTQwNiAyLjkyOTY4NyA3LjA3MDMxMiAwIDIuNjMyODEzLTEuMDYyNSA1LjIxMDkzOC0yLjkyOTY4NyA3LjA3MDMxMy0xLjg2MzI4MSAxLjg1OTM3NS00LjQzMzU5NCAyLjkyOTY4Ny03LjA3MDMxMyAyLjkyOTY4N3ptMCAwIi8+PHBhdGggZD0ibTIwNC41NzQyMTkgOTIuNjQwNjI1Yy0yLjU1ODU5NCAwLTUuMTE3MTg4LS45NzY1NjMtNy4wNzAzMTMtMi45Mjk2ODdsLTMzLjE1MjM0NC0zMy4xNTIzNDRjLTMuOTAyMzQzLTMuOTAyMzQ0LTMuOTAyMzQzLTEwLjIzNDM3NSAwLTE0LjE0MDYyNSAzLjkwNjI1LTMuOTA2MjUgMTAuMjM4MjgyLTMuOTA2MjUgMTQuMTQ0NTMyIDBsMzMuMTUyMzQ0IDMzLjE1MjM0M2MzLjkwMjM0MyAzLjkwMjM0NCAzLjkwMjM0MyAxMC4yMzQzNzYgMCAxNC4xNDA2MjYtMS45NTMxMjYgMS45NTMxMjQtNC41MTE3MTkgMi45Mjk2ODctNy4wNzQyMTkgMi45Mjk2ODd6bTAgMCIvPjxwYXRoIGQ9Im0zMDguMzYzMjgxIDkxLjc2MTcxOWMtMi41NTg1OTMgMC01LjExMzI4MS0uOTc2NTYzLTcuMDY2NDA2LTIuOTI1NzgxLTMuOTEwMTU2LTMuOTA2MjUtMy45MTAxNTYtMTAuMjM0Mzc2LS4wMDc4MTMtMTQuMTQ0NTMybDMyLjIzMDQ2OS0zMi4yNWMzLjkwNjI1LTMuOTAyMzQ0IDEwLjIzODI4MS0zLjkwNjI1IDE0LjE0NDUzMS0uMDAzOTA2IDMuOTA2MjUgMy45MDYyNSAzLjkwNjI1IDEwLjIzODI4MS4wMDM5MDcgMTQuMTQ0NTMxbC0zMi4yMzA0NjkgMzIuMjVjLTEuOTUzMTI1IDEuOTUzMTI1LTQuNTExNzE5IDIuOTI5Njg4LTcuMDc0MjE5IDIuOTI5Njg4em0wIDAiLz48L3N2Zz4=" />
                 <p><h5>93k</h5>VISITORS<br>In last year</p></div>
-            <div class="visite-awards">
+            <div class="visit__awards">
                 <img src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNTEyLjAyMSA1MTIuMDIxIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMi4wMjEgNTEyLjAyMSIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Zz48cGF0aCBkPSJtNDMyLjAxMSAxNzZjMC05Ny4wNDctNzguOTUzLTE3Ni0xNzYtMTc2cy0xNzYgNzguOTUzLTE3NiAxNzZjMCA0Ni42NjIgMTguMjU5IDg5LjEzNSA0OCAxMjAuNjY2djE5OS4zMzRjMCAxMi4yMzcgMTMuMjUyIDE5Ljk5NiAyMy45MzggMTMuODkyIDc1Ljc5NC00My4zMTEgNTIuOTI3LTMwLjI0MiAxMDQuMDYyLTU5LjQ2NCAzOC4xMiAyMS43ODQgNTUuNzIgMzEuODQgMTA0LjA2MiA1OS40NjQgMTAuNjIyIDYuMDcgMjMuOTM4LTEuNTgxIDIzLjkzOC0xMy44OTJ2LTE5OS4zMzRjMjkuNzQtMzEuNTMxIDQ4LTc0LjAwNCA0OC0xMjAuNjY2em0tMTc2LTE0NGM3OS40MDIgMCAxNDQgNjQuNTk4IDE0NCAxNDRzLTY0LjU5OCAxNDQtMTQ0IDE0NC0xNDQtNjQuNTk4LTE0NC0xNDQgNjQuNTk4LTE0NCAxNDQtMTQ0em0tOTYgMjkxLjQzOWMxMC4wMTEgNi41NDEgMjAuNzIyIDEyLjA5NSAzMiAxNi41MTJ2MTEwLjE5MmwtMzIgMTguMjg2em04OC4wNjEgOTQuNjY5LTI0LjA2MiAxMy43NXYtODIuNzgyYzIwLjUwMyAzLjc4MiA0Mi4yMzQgNC4wMTUgNjQgMHY4Mi43ODJsLTI0LjA2Mi0xMy43NWMtNC45MTgtMi44MTEtMTAuOTU3LTIuODExLTE1Ljg3NiAwem03MS45MzkgMzIuMDM2di0xMTAuMTkyYzExLjI3OC00LjQxOCAyMS45ODktOS45NzIgMzItMTYuNTEydjE0NC45OXoiLz48cGF0aCBkPSJtMTgwLjkxIDI1Ni41OTdjLTIuMjM4IDEzLjA0NSAxMS40OTQgMjMuMDMgMjMuMjE1IDE2Ljg2N2w1MS44ODYtMjcuMjc4IDUxLjg4NiAyNy4yNzhjMTEuNzE3IDYuMTYxIDI1LjQ1My0zLjgxOSAyMy4yMTUtMTYuODY3bC05LjkwOS01Ny43NzYgNDEuOTc2LTQwLjkxN2M5LjQ3OS05LjIzOSA0LjIzOC0yNS4zODctOC44NjctMjcuMjkxbC01OC4wMS04LjQzLTI1Ljk0My01Mi41NjZjLTUuODU4LTExLjg3LTIyLjgzNS0xMS44NzUtMjguNjk1IDBsLTI1Ljk0MyA1Mi41NjYtNTguMDEgOC40M2MtMTMuMDk5IDEuOTAzLTE4LjM1IDE4LjA0OC04Ljg2NyAyNy4yOTFsNDEuOTc2IDQwLjkxN3ptNDcuNzM2LTEwMy45NTZjNS4yMTEtLjc1NyA5LjcxNi00LjAzIDEyLjA0Ny04Ljc1MmwxNS4zMTgtMzEuMDM3IDE1LjMxOCAzMS4wMzdjMi4zMzEgNC43MjIgNi44MzUgNy45OTYgMTIuMDQ3IDguNzUybDM0LjI1MiA0Ljk3OC0yNC43ODUgMjQuMTU5Yy0zLjc3MSAzLjY3Ni01LjQ5MiA4Ljk3Mi00LjYwMiAxNC4xNjJsNS44NTEgMzQuMTE0LTMwLjYzNi0xNi4xMDZjLTIuMzMxLTEuMjI1LTQuODg4LTEuODM4LTcuNDQ1LTEuODM4LTUuMjY2IDAtNC43MzguNDE0LTM4LjA4MSAxNy45NDRsNS44NTEtMzQuMTE0Yy44OTEtNS4xOS0uODMxLTEwLjQ4Ni00LjYwMi0xNC4xNjJsLTI0Ljc4NS0yNC4xNTl6Ii8+PC9nPjwvc3ZnPg==" />
                 <p><h5>106</h5> AWARDS<br>Have Received</p></div>
-            <div class="visite-collections">
+            <div class="visit__collections">
                 <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjE4My45NzZweCIgaGVpZ2h0PSIxODMuOTc1cHgiIHZpZXdCb3g9IjAgMCAxODMuOTc2IDE4My45NzUiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDE4My45NzYgMTgzLjk3NTsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTE3MC4xNjcsNTAuNjI5YzAtMTguODgyLTE0LjIzNi0zNC40NzUtMzIuNTMxLTM2LjY4MlYzLjUwNGMwLTEuOTM5LTEuNTcxLTMuNTA0LTMuNTA0LTMuNTA0SDUwLjc4OA0KCQljLTEuOTM0LDAtMy41MDQsMS41NjUtMy41MDQsMy41MDR2MTAuMzI2Yy0xOC43NTEsMS43NzItMzMuNDc2LDE3LjU5NS0zMy40NzYsMzYuNzk4YzAsMTIuNDg5LDYuMTc0LDIzLjg0NCwxNi41MTYsMzAuNzI5DQoJCWMtNC40NTEsNy44NTQtNi43MzEsMTUuODc4LTYuNzMxLDIzLjkxN2MwLDI3LjE5OSwyNS4xOTIsNDcuOTgxLDQ1LjE5OCw2MC4yMDZjLTE1LjExOCwyLjU2LTIzLjU3NCw3LjgzNy0yMy41NzQsMTQuOTg5DQoJCWMwLDEuOTM3LDEuNTY5LDMuNTA0LDMuNTA0LDMuNTA0aDg1Ljc1MmMxLjkzNywwLDMuNTA0LTEuNTY3LDMuNTA0LTMuNTA0YzAtNy4xNTItOC40NTItMTIuNDMtMjMuNTcxLTE0Ljk4OQ0KCQljMjAuMDA2LTEyLjIxNyw0NS4yLTMzLjAwNyw0NS4yLTYwLjIwNmMwLTguMDYtMi4xMDUtMTYuMDc2LTYuMTA1LTIzLjgyQzE2My45MzgsNzQuNTgxLDE3MC4xNjcsNjMuMTg1LDE3MC4xNjcsNTAuNjI5eg0KCQkgTTU0LjI5Miw3LjAwOGg3Ni4zMzR2Ni45MDZjLTExLjI2NiwxLjY5NS0xOS45MzEsMTEuNDQ1LTE5LjkzMSwyMy4xNzVjMCw4LjE1Nyw0LjM0MywxNS44NSwxMS4xMjIsMTkuOTMyDQoJCWM4LjYxNyw2LjEwNywyMS42MDEsMTcuMjQ4LDI3LjU2OSwzMi4xMTVoLTEwLjUxNGMtMS45MzcsMC0zLjUwNCwxLjU2Ny0zLjUwNCwzLjUwNHYyMS40NjRoLTE3Ljk1OVY5Mi42NDENCgkJYzAtMS45MzctMS41NzQtMy41MDQtMy41MDUtMy41MDRoLTI0Ljk3Yy0xLjkzNSwwLTMuNTA0LDEuNTY3LTMuNTA0LDMuNTA0djIxLjQ2NEg2Ny40NzNWOTIuNjQxYzAtMS45MzctMS41NzEtMy41MDQtMy41MDQtMy41MDQNCgkJSDM5Yy0xLjkzNSwwLTMuNTA0LDEuNTY3LTMuNTA0LDMuNTA0djIxLjYxMWgtMy43NDRjLTAuNzEtMi45MDktMS4xNTUtNS44OTYtMS4xNTUtOC45OGMwLTIwLjY1OSwxNy44My0zNy42NCwzMi43OS00OC4yNTUNCgkJYzAuMjQ1LTAuMTc1LDAuNDU1LTAuMzcsMC42MzMtMC41OTZjNi4zMjItNC4zNDQsMTAuMTk4LTExLjYzMywxMC4xOTgtMTkuMzM4YzAtMTEuNzMzLTguNjY3LTIxLjQ3OS0xOS45MzItMjMuMTc1VjcuMDA4SDU0LjI5MnoNCgkJIE0yMC44Miw1MC42MjljMC0xNi41MjUsMTMuNDQ1LTI5Ljk2OSwyOS45NzEtMjkuOTY5YzkuMDU1LDAsMTYuNDI4LDcuMzcxLDE2LjQyOCwxNi40M2MwLDUuODA2LTIuOTc0LDExLjA2OS03Ljk1NSwxNC4wNzUNCgkJYy0wLjM4NSwwLjIzMi0wLjcwMywwLjUzNC0wLjk0NiwwLjg3NkM0Ny45ODksNTkuNTAyLDM5LjksNjcuMzcyLDM0LjEyMiw3NS40N0MyNS43ODksNjkuODg1LDIwLjgyLDYwLjcxNCwyMC44Miw1MC42Mjl6DQoJCSBNMTAxLjgwNiwxNjQuNjE2Yy0xLjM3OSwwLjczMi0yLjEwMiwyLjI5LTEuNzc5LDMuODE2YzAuMzIxLDEuNTI2LDEuNjE1LDIuNjU1LDMuMTY1LDIuNzcxDQoJCWMxMy4xOTksMC45OTIsMjAuNzksMy40NzQsMjQuNjAzLDUuNzY3SDU1LjQxOGMzLjgxMi0yLjI5LDExLjM5Ni00Ljc3NCwyNC41OTctNS43NjdjMS41NTItMC4xMTYsMi44NDUtMS4yNDUsMy4xNjQtMi43NzENCgkJYzAuMzIyLTEuNTI2LTAuNDA0LTMuMDgtMS43NzYtMy44MTZjLTE1LjE2NC04LjEwNi0zOC41LTIzLjI4NC00Ny4yNzQtNDMuMzQ5aDUuNDUzYzEuOTM0LDAsMy41MDQtMS41NjYsMy41MDQtMy41MDRWOTYuMTQ5DQoJCWgxNy4zODF2MjEuNDY0YzAsMS45MzcsMS41NjksMy41MDQsMy41MDQsMy41MDRIODguOTRjMS45MzQsMCwzLjUwNC0xLjU2NywzLjUwNC0zLjUwNFY5Ni4xNDloMTcuOTU4djIxLjQ2NA0KCQljMCwxLjkzNywxLjU3LDMuNTA0LDMuNTA0LDMuNTA0aDI0Ljk2OGMxLjkzOCwwLDMuNTA1LTEuNTY3LDMuNTA1LTMuNTA0Vjk2LjE0OWg5LjE3MWMwLjY1NywyLjkzLDEuMDU1LDUuOTY4LDEuMDU1LDkuMTI3DQoJCUMxNTIuNjA0LDEzMy4yODcsMTIwLjc3OCwxNTQuNDc2LDEwMS44MDYsMTY0LjYxNnogTTE0OS45NDgsNzUuNDA3Yy01LjcxMS04LjY0OC0xMy44NTktMTYuODU0LTI0LjI4Ny0yNC4yNDMNCgkJYy00Ljk3OS0zLjAwMy03Ljk1Ni04LjI2Ni03Ljk1Ni0xNC4wNzVjMC04Ljk1MSw3LjIwNy0xNi4yMjMsMTYuMTE1LTE2LjM5N2MxNi4yMzEsMC4zNDQsMjkuMzM4LDEzLjYyNSwyOS4zMzgsMjkuOTM3DQoJCUMxNjMuMTU4LDYwLjY4MywxNTguMjI0LDY5LjgxNSwxNDkuOTQ4LDc1LjQwN3oiLz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjwvc3ZnPg0K" />
                 <p><h5>15k</h5>COLLECTIONS<br>Of art design</p></div>
         </section>
@@ -255,17 +255,17 @@
         <section class="testimonials">
             <div>
                 <img src="images/testi-1-1.jpg" alt="photo-testimonials-1">
-                <p class="nom">Glen ford <br> California </p> <!--serra tranformer en bloc dans css -->
+                <p class="testimonials__nom">Glen ford <br> California </p> <!--serra tranformer en bloc dans css -->
                 <p> Wonderful Exhibit. Gret presentation with a lot of interesting things I did not know about Egypt. There is always something to learn!</p>
             </div>
             <div>
                 <img src="images/testi-1-2.jpg" alt="photo-testimonials-2">
-                <p class="nom">Steve Rogers</p> <!--serra tranformer en bloc dans css -->
+                <p class="testimonials__nom">Steve Rogers</p> <!--serra tranformer en bloc dans css -->
                 <p> Wonderful Exhibit. Gret presentation with a lot of interesting things I did not know about Egypt. There is always something to learn!</p>
             </div>
             <div>
                 <img src="images/testi-1-3.jpg" alt="photo-testimonials-3">
-                <p class="nom">Tony Stark</p> <!--serra tranformer en bloc dans css -->
+                <p class="testimonials__nom">Tony Stark</p> <!--serra tranformer en bloc dans css -->
                 <p> Wonderful Exhibit. Gret presentation with a lot of interesting things I did not know about Egypt. There is always something to learn!</p>
             </div>
         </section>
@@ -277,7 +277,7 @@
         <section class="blog">
             <h2>News blog</h2>
             <h3>Latest from our blog</h3>
-            <div class="div-blog-1">
+            <div class="blog__div-1">
                 <img src="images/blog-2-1.jpg" alt="image bloc 1">
                 <h4 class = "admin">Admin_press release</h4>
                 <h5>Celebrating Authentic Marathon at our Egypt Museum</h5>
@@ -285,12 +285,12 @@
                 <a href="#">Read more +</a>
                 <p class="event-date">21.10.201</p>
             </div>
-             <div class="div-blog-2">
+             <div class="blog__div-2">
                 <p>"While I stand & regard it, the indifference to myself shown by a work of art in itself is art"</p>
                 <a href="#">Read more +</a>
                 <i class="fas fa-quote-right"></i>
             </div>
-             <div class="div-blog-3">
+             <div class="blog__div-3">
                 <img src="images/blog-2-2.jpg" alt="image blog 2">
                 <h4 class = "admin">Admin_press release</h4>
                 <h5>Celebrating Authentic Marathon at our Egypt Museum</h5>
@@ -298,7 +298,7 @@
                 <a href="#">Read more +</a>
                 <p class="event-date">21.10.201</p>
             </div>
-             <div class="div-blog-4">
+             <div class="blog__div-4">
                 <img src="images/blog-2-3.jpg" alt="image blog 3">
                 <h4 class = "admin">Admin_press release</h4>
                 <h5>Celebrating Authentic Marathon at our Egypt Museum</h5>
@@ -313,22 +313,22 @@
         <!-- debut footer Tanya -->
 
         <footer>
-            <img src="file:///home/tanyalee/Bureau/BECODE/04.HTML%20-%20CSS/museum-project/images/footer-logo-1-1.png" alt="">
+            <img src="images/footer-logo-1-1.png" alt="photo-footer-logo" width="200" height="150">
 
-            <div>
-                <i class="far fa-envelope"></i>
-                <input type="mail">
-                <button type="submit"> <i class="fas fa-arrow-right"></i> </button>
+            <div class="footer__mailinput">
+                <i class="far fa-envelope footer__mailinput__icon"></i>
+                <input type="mail" class="footer__mailinput__input" placeholder="Enter Email Adress...">
+                <button type="submit" class="footer__mailinput__button"> <i class="fas fa-arrow-right"></i> </button>
             </div>
 
-            <ul>
+            <ul class="media-icons">
                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                 <li><a href="#"><i class="fab fa-twitter"></i></a></li>
                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                 <li><a href="#"><i class="fab fa-youtube-square"></i></a></li>
             </ul>
 
-            <p> Copyrights © 2019 <a href="#">Egypt</a>, All Rights Reserved.</p>
+            <p class="footer__copyrights"> Copyrights © 2019 <a href="#">Egypt</a>, All Rights Reserved.</p>
         </footer>
 
         <!-- fin du footer  -->

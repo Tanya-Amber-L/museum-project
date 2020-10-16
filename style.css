@@ -1,7 +1,11 @@
-*{
-    margin: 0 0;
-    padding: 0 0;
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&display=swap');
+
+
+* {
+    margin:0px;
+    padding: 0px;
 }
+
 
 .navbar{
     background-color: rgba(48,46,47,1);
@@ -38,7 +42,7 @@
     border-bottom: 1px solid grey;
 }
 
-.orange__icon{
+.icon__orange{
     color: #D99578;
 }
 
@@ -51,10 +55,10 @@
     display: none;
 }
 
-.navbar-languages{
+.navbar__languages{
     display: none;
 }
-.orange-button{
+.button--orange{
     display: none;
 }
 .navbar-links{
@@ -63,7 +67,7 @@
 }
 
 
-.navbar-light-logo{
+.navbar__light-logo{
     margin: auto;
     grid-row: 3;
     grid-column: 1;
@@ -71,7 +75,7 @@
     padding-left: 20px;
     border-right: 1px solid grey;
 }
-.navbar-burger-menu-mobile{
+.navbar__burger-menu-mobile{
     color: white;
     margin: auto;
     margin-right: 15%;
@@ -80,6 +84,82 @@
     font-size: 1.5em;
 }
 
-.navbar-burger-menu-desk{
+.navbar__burger-menu-desk{
     display: none;
 }
+
+
+
+/* FOOTER */
+
+footer {
+    width: 100vw;
+    height: 30em;
+    background-image: url(images/footer-bg-1-1.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: "Mulish", sans-serif;
+    font-size: 1em;
+    color: rgba(132,122,125,1);
+}
+
+
+/* input style  */
+
+.footer__mailinput {
+    display: flex;
+    height: 3em;
+}
+
+.footer__mailinput__icon {
+    background-color: #d99578;
+    color: white;
+    padding: 1em;
+}
+
+.footer__mailinput__input {
+    padding: 1em;
+    color: rgb(136, 136, 136, 0.7);
+    border: 0px;
+}
+
+.footer__mailinput__button {
+    background-color: white;
+    border: 0px;
+    width: 3em;
+}
+
+
+/* hover on the button */
+
+.footer__mailinput__button:hover {
+    background-color: rgb(211, 211, 211);
+}
+
+
+/* icons style */
+
+.media-icons {
+    list-style-type: none;
+    display: flex; 
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+.media-icons a {
+    display: inline-block;
+    padding: 0px 10px;
+    color: rgba(132,122,125,1);
+}
+
+
+/* p copyrights style */
+
+.footer__copyrights a {
+    text-decoration: none;
+    color: #d99578;
+}
+
