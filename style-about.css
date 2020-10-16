@@ -1,0 +1,44 @@
+*
+{
+    margin:0;
+    padding: 0;
+}
+
+.top
+{
+    background-position: center;
+    background-image: url(images/inner-banner-bg-1-1.jpg);
+    min-height: 340px;
+    width: 100%;
+    
+
+}
+
+.top__title 
+{
+    color:white;
+    font-size: 5em;
+    padding-top:5%;
+    text-align: center;
+}
+
+.top__home
+{
+    color:white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+
+
+
+.download-story
+{
+    width: 2em;
+}
+
+.play-button
+{
+    width: 4em;  
+}

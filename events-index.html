@@ -1,12 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="events-style.css">
-    <link rel="stylesheet" href="footer-style.css">
+    <link rel="stylesheet" href="style-footer.css">
+    <link rel="stylesheet" href="style-header.css">
     <title>Events</title>
 </head>
+
 <body>
 
     <header>
@@ -50,11 +53,16 @@
         </nav>
     </header>
     
+
+    <!-- Début section de recherche: choix par date ou mois, menu déroulant  -->
+
     <section class="recherche">
 
         <h1> November - 2019 </h1>
-        <button type="button"> Search by month </button>
-        <button type="button"> Search by date </button>
+        <div class="choix-recherche">
+            <button type="button"> Search by month </button>
+            <button type="button"> Search by date </button>
+        </div>
         <ul class="menu-deroulant">
             <li>All Categories
                 <ul>
@@ -75,18 +83,21 @@
                     <li>Etc</li>
                 </ul>
             </li>
+            <li>
+                <button type="submit"> Find event </button>
+            </li>
         </ul>
-
-
-        <button type="submit"> Find event </button>
 
     </section>
 
+    <!-- fin section recherche -->
+
+    <!-- Début de tous les évènements -->
 
     <section class="block-event">
 
         <div>
-            <img src="" alt="">
+            <img src="images/event-4-1.jpg" alt="photo-event-1">
             <h2>Tour</h2>
             <h3>Weekend Drop-In Sessions in the Slacker Lab</h3>
             <p>Date & Time <br> <i class="far fa-clock"></i> 04 Nov 2019, 10.00 to 15.00</p>
@@ -94,7 +105,7 @@
         </div>
 
         <div>
-            <img src="" alt="">
+            <img src="images/event-4-2.jpg" alt="photo-event-2">
             <h2>Tour</h2>
             <h3>Weekend Drop-In Sessions in the Slacker Lab</h3>
             <p>Date & Time <br> <i class="far fa-clock"></i> 04 Nov 2019, 10.00 to 15.00</p>
@@ -102,7 +113,7 @@
         </div>
 
         <div>
-            <img src="" alt="">
+            <img src="images/event-4-3.jpg" alt="photo-event-3">
             <h2>Tour</h2>
             <h3>Weekend Drop-In Sessions in the Slacker Lab</h3>
             <p>Date & Time <br> <i class="far fa-clock"></i> 04 Nov 2019, 10.00 to 15.00</p>
@@ -110,7 +121,7 @@
         </div>
 
         <div>
-            <img src="" alt="">
+            <img src="images/event-4-4.jpg" alt="photo-event-4">
             <h2>Tour</h2>
             <h3>Weekend Drop-In Sessions in the Slacker Lab</h3>
             <p>Date & Time <br> <i class="far fa-clock"></i> 04 Nov 2019, 10.00 to 15.00</p>
@@ -119,7 +130,7 @@
         </div>
 
         <div>
-            <img src="" alt="">
+            <img src="images/event-4-5.jpg" alt="photo-event-5">
             <h2>Tour</h2>
             <h3>Weekend Drop-In Sessions in the Slacker Lab</h3>
             <p>Date & Time <br> <i class="far fa-clock"></i> 04 Nov 2019, 10.00 to 15.00</p>
@@ -127,7 +138,7 @@
         </div>
 
         <div>
-            <img src="" alt="">
+            <img src="images/event-4-6.jpg" alt="photo-event-6">
             <h2>Tour</h2>
             <h3>Weekend Drop-In Sessions in the Slacker Lab</h3>
             <p>Date & Time <br> <i class="far fa-clock"></i> 04 Nov 2019, 10.00 to 15.00</p>
@@ -142,8 +153,11 @@
 
     </section>
 
+    <!-- fin section évènements -->
+
+
     <footer>
-        <img src="images/footer-logo-1-1.png" alt="">
+        <img src="images/footer-logo-1-1.png" alt="photo-footer-logo" width="400">
 
         <div>
             <i class="far fa-envelope"></i>
