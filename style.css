@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&display=swap');
-
 
 * {
     margin:0px;
@@ -130,7 +130,6 @@
     padding: 10px;
 }
 
-
 .become-a-member__button{
     display: flex;
     justify-content: center;
@@ -142,6 +141,202 @@
     width: 90%;
     height: 35%;
 }
+
+
+
+/* ABOUT US */
+
+/* text style */
+
+.about-us {
+    margin: 5%;
+    height: 72em;
+}
+
+.about-us h2, .about-us  p, .about-us button {
+    font-family: "Mulish", sans-serif;
+    color: rgb(104, 106, 98);
+}
+
+.about-us h3, .about-us h4, .about-us__date p{
+    font-family: "Prata", serif;
+    margin: 1em 0em;
+    font-weight: 100;
+}
+
+.about-us h2 {
+   display: block;
+   width: max-content;
+   padding-top: 1em;
+   border-top: #D99578 solid 2px; 
+   font-size: 1em;
+}
+
+.about-us h3 {
+    font-size: 1.5em;
+}
+
+.about-us h4 {
+    font-size: 2em;
+}
+
+.about-us p {
+    line-height: 1.8em;
+}
+
+.about-us button {
+    margin: 2em 0em;
+    padding: 1em 3em;
+    background-color: #D99578;
+    border-radius: 0.5em;
+    border: 0px;
+    color: white;
+}
+
+/* hover on the button */
+
+.about-us button:hover {
+    background-color: #db815b;
+}
+
+/* imgs and divs style */
+
+.about-us__photo-about-1 {
+    position: relative;
+    top: 11em;
+    left: 5em;
+
+    z-index: 5;
+}
+
+.about-us__date {
+    width: 20em;
+    height: 20em;
+    padding: 1em;
+
+    border: solid 0.2em rgb(211, 211, 211);
+    background-color: rgba(104, 106, 98, 0);
+    position: relative;
+    bottom: 40em;
+    left: 3em;
+
+    z-index: 4;
+
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.about-us__photo-about-2 {
+    position: relative;
+    right: 4em;
+    bottom: 11em;
+
+    z-index: 3;
+}
+
+.about-us__orange {
+    width: 18em;
+    height: 22em;
+
+    background-color: #D99578;
+    position: relative;
+    bottom: 53.5em;
+    left: 3em;
+}
+
+.about-us__date__gradient {
+    width: 6em;
+    height: 4em;
+    background-image: linear-gradient(#d9957870, #d9957800 70%);
+    border-right: #D99578 solid 0.2em;
+}
+
+.about-us__date p strong {
+    font-size: 4em;
+    
+}
+
+
+/* EXHIBITION */
+
+/* text style */
+
+.exhibition {
+    height: 110em;
+    padding: 5em 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    background-color: #302e2f;
+    color: white;
+}
+
+.exhibition h2, .exhibition h5, .exhibition__date, .exhibition button{
+    font-family: "Mulish", sans-serif;
+}
+
+.exhibition h3, .exhibition__titre {
+    font-family: "Prata", serif;
+}
+
+.exhibition h2 {
+    display: block;
+    width: max-content;
+    padding-top: 1em;
+    border-top: #D99578 solid 2px; 
+    font-size: 1em;
+    color: rgb(104, 106, 98);
+}
+
+.exhibition h3 {
+    font-size: 1.5em;    
+}
+
+.exhibition div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 23em;
+}
+
+.exhibition div h5 {
+    color: #d99578;
+    margin: 1em 0em;
+    font-size: 1.1em;
+}
+
+.exhibition__titre {
+    font-size: 1.3em;
+    font-weight: 600;
+}
+
+.exhibition__date {
+    margin-top: 2.5em;
+}
+
+.exhibition__date__line {
+    color: #D99578;
+}
+
+.exhibition button {
+    width: 9em;
+    height: 3em;
+    margin: 2em 0em;
+    background-color: #3f3f3f;
+    color: white;
+    border: 0px;
+    border-radius: 0.3em;
+}
+
+/* hover on the button */
+
+.exhibition button:hover {
+    background-color: #302e2f;
+    border: 1px solid #3f3f3f;
+}
+
 
 /* FOOTER */
 
@@ -205,7 +400,7 @@ footer {
     font-size: 1.2em;
 }
 
-.media-icons a {
+.footer__media-icons a {
     display: inline-block;
     padding: 0px 10px;
     color: rgba(132,122,125,1);
