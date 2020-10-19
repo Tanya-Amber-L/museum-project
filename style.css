@@ -9,7 +9,7 @@
 
 .navbar{
     background-color: rgba(48,46,47,1);
-    height: 250px;
+    height: 200px;
     width: 100%;
     display: grid;
     grid-template-columns: 60% 40%;
@@ -25,7 +25,7 @@
     margin-right: 25px;
     font-size: 1em;
     border-bottom: 1px solid grey;
-    padding-top: 25px;
+    padding-top: 15px;
 
 }
 
@@ -38,8 +38,8 @@
     margin-left: 15px;
     margin-right: 15px;
     font-size: 1em;
-    padding-bottom: 15px;
     border-bottom: 1px solid grey;
+    padding-bottom: 15px;
 }
 
 .icon__orange{
@@ -47,7 +47,7 @@
 }
 
 
-.media-icons {
+.header__media-icons {
     display: none;
 }
 
@@ -86,7 +86,62 @@
 
 .navbar__burger-menu-desk{
     display: none;
+
 }
+
+.become-a-member{
+    height: 1000px;
+    width: 100%;
+    background-image: linear-gradient(76deg, rgba(0,0,0,0.8) 0%, rgba(210,147,120,1) 100%),
+                     url(images/video-bg-1-1.jpg);
+    background-position: center;
+    display: grid;
+    grid-template-rows: 40% 20% 20% 15% 5%;
+    
+
+}
+
+.become-a-member__images{
+    grid-row: 1;
+    display: flex;
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: no-repeat url(images/video-1-1.jpg);
+    background-position: center;
+    background-size: 80%;
+}
+
+.become-a-member__play{
+    font-size: 4em;
+    color: white;
+}
+
+.become-a-member h3{
+    color: white;
+    grid-row: 2;
+    font-size: 3em;
+    margin-left: 15px;
+}
+.become-a-member table tr td{
+    color: white;
+    padding: 10px;
+}
+
+.become-a-member__button{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    grid-row: 4;
+}
+
+.become-a-member__button button{
+    width: 90%;
+    height: 35%;
+}
+
 
 
 /* ABOUT US */
@@ -103,7 +158,7 @@
     color: rgb(104, 106, 98);
 }
 
-.about-us h3, .about-us h4, .about-us__date p{
+.about-us h3, .about-us h4, .about-us__ensemble__date p{
     font-family: "Prata", serif;
     margin: 1em 0em;
     font-weight: 100;
@@ -125,7 +180,7 @@
     font-size: 2em;
 }
 
-.about-us p {
+.about-us__text {
     line-height: 1.8em;
 }
 
@@ -146,18 +201,24 @@
 
 /* imgs and divs style */
 
-.about-us__photo-about-1 {
+.about-us__ensemble {
+    width: 100%;
+    height: 45em;
+
+}
+
+.about-us__ensemble__photo1 {
     position: relative;
-    top: 11em;
+    top: 11.5em;
     left: 5em;
 
     z-index: 5;
 }
 
-.about-us__date {
-    width: 20em;
-    height: 20em;
-    padding: 1em;
+.about-us__ensemble__date {
+    width: 18em;
+    height: 18em;
+    padding: 2em;
 
     border: solid 0.2em rgb(211, 211, 211);
     background-color: rgba(104, 106, 98, 0);
@@ -171,7 +232,7 @@
     justify-content: space-evenly;
 }
 
-.about-us__photo-about-2 {
+.about-us__ensemble__photo2 {
     position: relative;
     right: 4em;
     bottom: 11em;
@@ -179,27 +240,35 @@
     z-index: 3;
 }
 
-.about-us__orange {
-    width: 18em;
-    height: 22em;
+.about-us__ensemble__orange {
+    width: 19em;
+    height: 22.5em;
 
     background-color: #D99578;
     position: relative;
-    bottom: 53.5em;
-    left: 3em;
+    bottom: 53.7em;
+    left: 2.5em;
 }
 
-.about-us__date__gradient {
+.about-us__ensemble__date__gradient {
     width: 6em;
     height: 4em;
     background-image: linear-gradient(#d9957870, #d9957800 70%);
     border-right: #D99578 solid 0.2em;
 }
 
-.about-us__date p strong {
+.about-us__ensemble__date__maj {
     font-size: 4em;
-    
+    position: relative;
+    bottom: 1.1em;
 }
+
+.about-us__ensemble__date__text {
+    font-size: 1.3em;
+    position: relative;
+    bottom: 0.9em;
+}
+
 
 
 /* EXHIBITION */
@@ -218,11 +287,11 @@
     color: white;
 }
 
-.exhibition h2, .exhibition h5, .exhibition__date, .exhibition button{
+.exhibition h2, .exhibition__block h5, .exhibition__block__date, .exhibition__block button{
     font-family: "Mulish", sans-serif;
 }
 
-.exhibition h3, .exhibition__titre {
+.exhibition h3, .exhibition__block__titre {
     font-family: "Prata", serif;
 }
 
@@ -239,33 +308,35 @@
     font-size: 1.5em;    
 }
 
-.exhibition div {
+.exhibition__block {
     display: flex;
     flex-direction: column;
     justify-content: center;
     max-width: 23em;
 }
 
-.exhibition div h5 {
+.exhibition__block h5 {
     color: #d99578;
     margin: 1em 0em;
     font-size: 1.1em;
 }
 
-.exhibition__titre {
+.exhibition__block__titre {
     font-size: 1.3em;
     font-weight: 600;
 }
 
-.exhibition__date {
+.exhibition__block__date {
     margin-top: 2.5em;
+    display: flex;
+    flex-direction: column;
 }
 
-.exhibition__date__line {
+.exhibition__block__date__line {
     color: #D99578;
 }
 
-.exhibition button {
+.exhibition__block__date__button {
     width: 9em;
     height: 3em;
     margin: 2em 0em;
@@ -277,11 +348,76 @@
 
 /* hover on the button */
 
-.exhibition button:hover {
+.exhibition__block__date__button:hover {
     background-color: #302e2f;
     border: 1px solid #3f3f3f;
 }
 
+
+/* TESTIMONIALS */
+
+.testimonials {
+    padding:20% 10%;
+    height: 40em;
+    background-color: rgb(250, 223, 210);
+}
+
+.testimonials__info__nom, .testimonials__text {
+    font-family: "Prata", serif;
+}
+
+.testimonials__div1 {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonials__div2, .testimonials__div3 {
+    display: none;
+}
+
+.testimonials__photo {
+    border-radius: 50%;
+}
+
+.testimonials__info {
+    background-color: white;
+    text-align: center;
+    border-radius: 4px;
+    margin: 3em;
+    padding: 1em 3em;
+    width: max-content;
+    position: relative;
+}
+.testimonials__info:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 1.5em solid transparent;
+    border-top-color: white;
+    border-bottom: 0;
+    margin-left: -1.5em;
+    margin-bottom: -1.5em;
+}
+
+.testimonials__info__nom {
+    font-size: 1.3em;
+}
+
+.testimonials__info__city {
+    font-family: "Mulish", sans-serif;
+    font-size: 0.9em;
+    color: #db815b;
+}
+
+.testimonials__text {
+    text-align: center;
+    font-size: 1.3em;
+    margin: 1em;
+}
 
 /* FOOTER */
 
@@ -293,7 +429,6 @@ footer {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-
     font-family: "Mulish", sans-serif;
     font-size: 1em;
     color: rgba(132,122,125,1);
@@ -358,5 +493,56 @@ footer {
 .footer__copyrights a {
     text-decoration: none;
     color: #d99578;
+}
+
+
+/* About us Media Queries tablette */
+
+@media screen and (min-width:768px) {
+    .about-us h3 {
+        font-size: 2.5em;
+    }
+    
+    .about-us h4 {
+        font-size: 1.4em;
+        width: 17em;
+    }
+
+    .about-us__ensemble__photo1 {
+        top: 19em;
+        left: 16em
+    }
+
+    .about-us__ensemble__date {
+        bottom: 38em;
+        left: 13.5em;
+    }
+
+    .about-us__ensemble__photo2 {
+        left: 3em;
+        bottom: 8em;
+    }
+
+    .about-us__ensemble__orange {
+        width: 22em;
+        left: 10em;
+        bottom: 49em;
+    }
+
+    /* Exhibition media queries tablette */
+    .exhibition {
+        height: 140em;
+    }
+    .exhibition__block {
+        min-width: 45em;
+    }
+
+    .exhibition__block__photo {
+        height: 25em;
+    }
+
+    .exhibition__block__date__button {
+        
+    }
 }
 
