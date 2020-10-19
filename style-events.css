@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&display=swap');
 
 * {
-    margin:0px;
+    margin: 0px;
     padding: 0px;
 }
 
+/* HEADER */
 
 .navbar{
     background-color: rgba(48,46,47,1);
@@ -89,199 +90,148 @@
 }
 
 
-/* ABOUT US */
+/* RECHERCHE */
 
-/* text style */
+/* style texte */
 
-.about-us {
-    margin: 5%;
-    height: 72em;
+.recherche {
+    background-image: url(images/inner-banner-bg-1-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 40em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
 }
 
-.about-us h2, .about-us  p, .about-us button {
-    font-family: "Mulish", sans-serif;
-    color: rgb(104, 106, 98);
-}
-
-.about-us h3, .about-us h4, .about-us__date p{
+h1 {
     font-family: "Prata", serif;
-    margin: 1em 0em;
+    font-weight: 700;
+    font-size: 2em;
+    display: block;
+    padding: 1em;
+    border-bottom: 0.01em solid white;
+    margin-top: 6em;
+    margin-bottom: 1em;
+}
+
+/* style boutons */
+
+.recherche__choix {
+    display: flex;
+    flex-direction: column;
+}
+
+.recherche__choix button {
+    font-size: 1.1em;
+    color: white;
+    background-color: rgba(132,122,125,0);
+    padding: 0.7em;
+}
+
+.recherche__choix__bouton1 {
+    border-bottom: 0.01em solid white;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+}
+
+.recherche__choix__bouton2 {
+    border: 0px;
+}
+
+/* style menu déroulant */
+
+.menu-deroulant, .menu-deroulant__sous{
+    list-style-type: none;
+}
+
+.menu-deroulant li {
+    padding: 0.5em;
+    color: #3f3f3f;
+    background-color: white;
+    border: 0.01em solid #3f3f3f;
+}
+
+.menu-deroulant__sous {
+    display: none;
+}
+
+.menu-deroulant li:hover .menu-deroulant__sous {
+    display: block;
+}
+/* IL ME RESTE A MODIFIER LE MENU DEROULANT MAIS FLEMME MAINTENANT */
+
+/* BLOCK-EVENT */
+
+.event-info {
+    margin: 5%;
+    height: 250em;
+}
+
+.event-info h2, .event-info__date-details, .event-info__location-details {
+    font-family: "Mulish", sans-serif;
+}
+
+.event-info h3, .event-info__date, .event-info__location {
+    font-family: "Prata", serif;
+}
+
+.event-info div {
+    height: 45em;
+    width: 100%;
+    border: 1px solid rgb(192, 192, 192);
+    margin: 2em 0em;
+}
+
+
+.event-info h2 {
+    font-size: 1em;
+    display: block;
+    background-color: white;
+    width: max-content;
+    padding: 0.2em;
+    position: relative;
+    bottom: 16em;
+    left: 18em;
+}
+
+/* TROUVER UNE AUTRE SOLUTION QUE CA: MARCHE PAS EN RESPONSIVE */
+
+.event-info h3 {
+    margin: 1em 2em;
+    font-size: 1.3em;
     font-weight: 100;
 }
 
-.about-us h2 {
-   display: block;
-   width: max-content;
-   padding-top: 1em;
-   border-top: #D99578 solid 2px; 
-   font-size: 1em;
+.event-info p{
+    margin: 1em 2.5em;
 }
 
-.about-us h3 {
-    font-size: 1.5em;
-}
-
-.about-us h4 {
-    font-size: 2em;
-}
-
-.about-us p {
-    line-height: 1.8em;
-}
-
-.about-us button {
-    margin: 2em 0em;
-    padding: 1em 3em;
-    background-color: #D99578;
-    border-radius: 0.5em;
-    border: 0px;
-    color: white;
-}
-
-/* hover on the button */
-
-.about-us button:hover {
-    background-color: #db815b;
-}
-
-/* imgs and divs style */
-
-.about-us__photo-about-1 {
-    position: relative;
-    top: 11em;
-    left: 5em;
-
-    z-index: 5;
-}
-
-.about-us__date {
-    width: 20em;
-    height: 20em;
-    padding: 1em;
-
-    border: solid 0.2em rgb(211, 211, 211);
-    background-color: rgba(104, 106, 98, 0);
-    position: relative;
-    bottom: 40em;
-    left: 3em;
-
-    z-index: 4;
-
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.about-us__photo-about-2 {
-    position: relative;
-    right: 4em;
-    bottom: 11em;
-
-    z-index: 3;
-}
-
-.about-us__orange {
-    width: 18em;
-    height: 22em;
-
-    background-color: #D99578;
-    position: relative;
-    bottom: 53.5em;
-    left: 3em;
-}
-
-.about-us__date__gradient {
-    width: 6em;
-    height: 4em;
-    background-image: linear-gradient(#d9957870, #d9957800 70%);
-    border-right: #D99578 solid 0.2em;
-}
-
-.about-us__date p strong {
-    font-size: 4em;
-    
-}
-
-
-/* EXHIBITION */
-
-/* text style */
-
-.exhibition {
-    height: 110em;
-    padding: 5em 1em;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-
-    background-color: #302e2f;
-    color: white;
-}
-
-.exhibition h2, .exhibition h5, .exhibition__date, .exhibition button{
-    font-family: "Mulish", sans-serif;
-}
-
-.exhibition h3, .exhibition__titre {
-    font-family: "Prata", serif;
-}
-
-.exhibition h2 {
-    display: block;
-    width: max-content;
-    padding-top: 1em;
-    border-top: #D99578 solid 2px; 
-    font-size: 1em;
-    color: rgb(104, 106, 98);
-}
-
-.exhibition h3 {
-    font-size: 1.5em;    
-}
-
-.exhibition div {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    max-width: 23em;
-}
-
-.exhibition div h5 {
-    color: #d99578;
-    margin: 1em 0em;
-    font-size: 1.1em;
-}
-
-.exhibition__titre {
-    font-size: 1.3em;
-    font-weight: 600;
-}
-
-.exhibition__date {
-    margin-top: 2.5em;
-}
-
-.exhibition__date__line {
+.event-info__icon {
     color: #D99578;
 }
 
-.exhibition button {
-    width: 9em;
+.event-info__date-details {
+    padding-bottom: 2em;
+    border-bottom: 0.01em solid rgb(192, 192, 192);
+}
+
+.event-info button {
+    margin: 2.5em;
     height: 3em;
-    margin: 2em 0em;
-    background-color: #3f3f3f;
+    width: 75%;
+    background-color: #D99578;
     color: white;
     border: 0px;
-    border-radius: 0.3em;
+    border-radius: 4px;
 }
 
-/* hover on the button */
-
-.exhibition button:hover {
-    background-color: #302e2f;
-    border: 1px solid #3f3f3f;
+.event-info button:hover {
+    background-color: #db815b;
 }
-
 
 /* FOOTER */
 
@@ -359,4 +309,3 @@ footer {
     text-decoration: none;
     color: #d99578;
 }
-
