@@ -61,7 +61,15 @@
 }
 .navbar-links{
     display: none;
-
+}
+.navbar-links a{
+    color: white;
+    text-decoration: none;
+}
+.navbar-links li:hover{
+    transform: translateY(-10px);
+    text-decoration: underline;
+    opacity: 50%;
 }
 
 
@@ -293,11 +301,11 @@
 .about-us__ensemble {
     width: 100%;
     height: 45em;
-
+    position: relative;
 }
 
 .about-us__ensemble__photo1 {
-    position: relative;
+    position: absolute;
     top: 11.5em;
     left: 5em;
 
@@ -311,8 +319,8 @@
 
     border: solid 0.2em rgb(211, 211, 211);
     background-color: rgba(104, 106, 98, 0);
-    position: relative;
-    bottom: 40em;
+    position: absolute;
+    bottom: 22em;
     left: 3em;
 
     z-index: 4;
@@ -322,20 +330,20 @@
 }
 
 .about-us__ensemble__photo2 {
-    position: relative;
-    right: 4em;
-    bottom: 11em;
+    position: absolute;
+    right: 5em;
+    bottom: 16em;
 
     z-index: 3;
 }
 
 .about-us__ensemble__orange {
-    width: 19em;
+    width: 20em;
     height: 22.5em;
 
     background-color: #D99578;
-    position: relative;
-    bottom: 53.7em;
+    position: absolute;
+    bottom: 13.5em;
     left: 2.5em;
 }
 
@@ -402,6 +410,7 @@
     flex-direction: column;
     justify-content: center;
     max-width: 23em;
+    position: relative;
 }
 
 .exhibition__block h5 {
@@ -672,6 +681,73 @@
 }
 
 
+
+/* TESTIMONIALS */
+
+.testimonials {
+    padding:20% 10%;
+    height: 40em;
+    background-color: rgb(250, 223, 210);
+}
+
+.testimonials__info__nom, .testimonials__text {
+    font-family: "Prata", serif;
+}
+
+.testimonials__div1 {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    flex-direction: column;
+}
+.testimonials__div2, .testimonials__div3 {
+    display: none;
+}
+
+.testimonials__photo {
+    border-radius: 50%;
+}
+
+.testimonials__info {
+    background-color: white;
+    text-align: center;
+    border-radius: 4px;
+    margin: 3em;
+    padding: 1em 3em;
+    width: max-content;
+    position: relative;
+}
+.testimonials__info:after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 1.5em solid transparent;
+    border-top-color: white;
+    border-bottom: 0;
+    margin-left: -1.5em;
+    margin-bottom: -1.5em;
+}
+
+.testimonials__info__nom {
+    font-size: 1.3em;
+}
+
+.testimonials__info__city {
+    font-family: "Mulish", sans-serif;
+    font-size: 0.9em;
+    color: #db815b;
+}
+
+.testimonials__text {
+    text-align: center;
+    font-size: 1.3em;
+    margin: 1em;
+}
+
+
 /* blog  */
 
 .blog{
@@ -781,14 +857,12 @@ footer {
 }
 
 .footer__mailinput__icon {
-
     background-color: #d99578;
     color: white;
     padding: 1em;
 }
 
 .footer__mailinput__input {
-
     padding: 1em;
     color: rgb(136, 136, 136, 0.7);
     border: 0px;
@@ -837,9 +911,11 @@ footer {
 
 
 
-/* About us Media Queries tablette */
+/* Media Queries tablette - Tanya */
 
 @media screen and (min-width:768px){
+
+    /* about us */
     .about-us h3 {
         font-size: 2.5em;
     }
@@ -855,22 +931,22 @@ footer {
     }
 
     .about-us__ensemble__date {
-        bottom: 38em;
+        bottom: 19em;
         left: 13.5em;
     }
 
     .about-us__ensemble__photo2 {
         left: 3em;
-        bottom: 8em;
+        bottom: 13em;
     }
 
     .about-us__ensemble__orange {
         width: 22em;
         left: 10em;
-        bottom: 49em;
+        bottom: 9em;
     }
 
-    /* Exhibition media queries tablette */
+    /* Exhibition */
     .exhibition {
         height: 140em;
     }
@@ -883,9 +959,68 @@ footer {
     }
 
     .exhibition__block__date__button {
-        
+        position: absolute;
+        bottom: -1.5em;
+        left: 20em;
+    }
+
+    /* testimonials */
+    .testimonials {
+        height: 30em;
+        background-image: url(images/testi-1-1-bg.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    /* footer */
+    .footer__mailinput__input {
+        width: 25em;
     }
 }
+
+/* Media queries desktop - Tanya */
+@media screen and (min-width:1280px) {
+
+    /* about us */
+    .about-us {
+    height: 40em;
+    }
+
+    .about-us__text {
+        width: 35em;
+    }
+
+    .about-us__ensemble {
+        bottom: 38em;
+        left: 45em;
+    }
+
+    /* exhibition */
+    .exhibition {
+        height: 55em;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .exhibition h3 {
+        width: 100%;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+    .exhibition__block {
+        min-width: 30em;
+    }
+
+    .exhibition__block__photo {
+        height: 20em;
+    }
+}
+
+
+
+
 
 /* Header media querie tablet */
 @media screen and (min-width:768px){
@@ -915,7 +1050,7 @@ footer {
         font-size: 1em;
         border-bottom: 0px solid grey;
     }
-    
+  
 
     .header__media-icons {
         grid-row: 2;
@@ -1088,7 +1223,11 @@ footer {
         padding-right: 110px;
     
     }
-    
+    .navbar-links a{
+        color: white;
+        text-decoration: none;
+    }
+
     .navbar__light-logo{
         margin-left: 1%;
         grid-row: 3;
