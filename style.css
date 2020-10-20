@@ -893,7 +893,6 @@ footer {
 }
 
 
-}
 
 
 /* About us Media Queries tablette */
@@ -947,3 +946,111 @@ footer {
 }
 
 
+/* header media queries desktop  */
+
+@media screen and (min-width:1025px){
+
+    .navbar{
+        height: 150px;
+     
+    }
+    .navbar__time{
+   text-align: left;
+   padding-top: 10px;
+   padding-bottom: 10px;
+    
+    }
+    
+    .navbar__plan{
+        border-bottom: none;
+        margin-top: -10px;
+        text-align: left;
+        margin-left: 14%;
+        padding-left: 25px;
+    }
+
+    .header__media-icons {
+        display: flex;
+        list-style-type: none;
+        text-align: center;
+        margin-top: -4%;
+        margin-left: 85%;
+    }
+
+    .header__media-icons li{
+        display: inline-block;
+    }
+
+    .header__media-icons li a{
+        padding-left: 15px;
+        color:#847A7D;
+    }
+    
+    .navbar-loupe{
+        display: block;
+        position: absolute;
+        padding-top: 20px;
+        margin-left: 84%;
+        width: 5px;
+        height: 5px;
+    }
+    
+    .navbar__languages{
+        display: table-row;
+        position: absolute;
+        padding-top: 10px;
+        margin-left: 88%;
+        list-style-type: none;
+    }
+    .button--orange{
+        height: 40px;
+        width: 100px;
+        background-color: #D99578;
+        border-radius: 5px;
+        border-style: none;
+        display: flex;
+        position: absolute;
+        margin-top: 7px;
+        margin-left: 92%;
+    }
+    .button--orange a{
+      margin: auto;
+      text-decoration: none;
+        color: white
+
+    }
+
+    .navbar-links{
+        display: block;
+    }
+
+    .navbar-links li{
+        display: inline-block;
+    
+    }
+    
+    
+    .navbar__light-logo{
+        margin-left: 1%;
+        grid-row: 3;
+        grid-column: 1;
+        padding-right: 25px;
+    }
+    .navbar__burger-menu-mobile{
+        display: none;
+      
+    }
+    
+    .navbar__burger-menu-desk{
+        display: block;
+        color: #D99578;
+        margin: auto;
+        margin-right: 5%;
+        grid-column: 2;
+        grid-row: 3;
+        font-size: 1.5em;
+    
+    }
+    
+
+}
