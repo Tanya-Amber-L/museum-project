@@ -1,0 +1,108 @@
+*{
+    padding: 0 0;
+    margin: 0 0;
+}
+
+.contact-us-head{
+    min-height: 350px;
+    background:url(images/inner-banner-bg-1-1.jpg);
+    background-position: center;
+    color: white;
+    text-align: center;
+}
+.contact-us-head h2{
+    padding-top: 30%;
+    font-size: 40px;
+}
+.contact-us-head h3{
+    font-size: 15px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 20px;
+}
+
+.contact-us-head p{
+    padding-top: 20px;
+}
+
+.contact-us__first-image{
+    margin-top: 30%;
+    width: 100%;
+}
+
+.contact-us__info{
+    line-height: 50px;
+    margin-left: 2%;
+}
+
+.contact-us__info h4{
+    font-size: 30px;
+}
+
+.contact-us__info hr{
+    margin: 5% 2% 5% 2%;
+    color: silver;
+}
+
+.contact-us__tabel{
+    width: 70%;
+    margin-left: 1%;
+}
+
+.contact-us__tabel td{
+    padding-right: 25px;
+    line-height: 50px;
+}
+
+
+
+.contact-us-inputs{
+    margin-top: 25px;
+}
+
+.contact-us-inputs label{
+    margin-left: 1%;
+}
+
+.contact-us-inputs input{
+    height: 50px;
+    width: 95%;
+    margin-bottom: 40px;
+    margin-left: 1%;
+}
+.contact-us-inputs-button{
+    background-color: black;
+    border-style: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    margin-bottom: 150px;
+    margin-left: 1%;
+}
+
+.contact-us-google-map img{
+    height: 400px;
+    width: 100%;
+}
+
+
+.contact-us-venue h3{
+    text-align: center;
+    margin-top: 20%;
+}
+
+.contact-us-venue div{
+    margin-top: 10%;
+    text-align: center;
+    margin-bottom: 45%;
+
+}
+.contact-us-venue-america{
+    display: none;
+}
+.contact-us-venue-autralia-2{
+    display: none;
+}
