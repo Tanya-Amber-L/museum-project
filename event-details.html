@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <link rel="stylesheet" href="style-event-details.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Event-details</title>
 </head>
 <body>
     <main>
@@ -62,8 +64,8 @@
         <!-- section top avec deux titres et fond photo -->
         <section class="top">
 
-            <h1></h1>
-            <h2></h2>
+            <h1>Independant Japanese Antiquity</h1>
+            <h2>HOME : EVENTS : <strong>SINGLE EVENT</strong></h2>
 
         </section>
 
@@ -71,29 +73,76 @@
 
         <!-- section avec 4 boutons -->
         <section class="boutons">
+            <a href="#">About Event</a>
+            <a href="#">Schedule</a>
+            <a href="#">Gallery</a>
+            <a href="#">Contact</a>
 
         </section>
 
 
 
         <!-- section cadre avec infos -->
-        <section class="infos">
-            <img src="" alt="">
+        <section class="infos" style="margin-left: 10%;">
+            <h4>Date & Time</h4>
+            <p><i class="far fa-clock  icon__orange"></i> 04 Nov 2019, 10.00 to 15.00</p>
+            <h4>Location</h4>
+            <p><i class="fas fa-location-arrow  icon__orange"></i> 246 King Street, NT 10011</p> 
+            <h4>Organizer</h4>
+           <p><i class="fas fa-user-alt  icon__orange"></i> Egypt Historical Museum</p>
+            <h4>Ticket Cost</h4>
+            <p><i class="far fa-money-bill-alt  icon__orange"></i>Adults - $15 / Childrens - $10</p>
+            <p><strong>*Free for Museum Members.</strong></p>
+            <img src="images/event-d-1-1.jpg" alt="hieroglyphics">
         </section>
+
+
+        <!-- Online booking  -->
+        <section>
+            <h3>Online Booking</h3>
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Email Address">
+            <button> - </button> <input type="numbers" placeholder="0"> <button> + </button>
+            <input type="text" placeholder="Childrens">
+            <input type="text" placeholder="Description">
+            <button>PROCEED TO BOOK</button>
+        </section>
+
 
 
 
         <!-- section deetails -->
         <section class="details">
-            <h3></h3>
-            <p></p>
-            <p></p>
+            <h3>Details About Event</h3>
+            <p>Equal blame belongs to those who fail in their duty through weakness of will, 
+                which is the same as saying through shrinking from toil and pain.
+            </p>
+            <p>These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice
+                is untrammelled and when nothing every pleasure is to be welcomed and every pain avoided. 
+                but in certain circumstances and owing th the claims of duty or the obligation of buisness.
+            </p>
         </section>
 
 
 
         <!-- section calendrier -->
         <section class="calendrier">
+            <h3>Event Schedule</h3>
+            <div>
+                <h5>10am - 12pm</h5>
+                <h6>Introduction of Independent Japanese antiquity</h6>
+                <p>Enjoy a 2 hours express Highlights</p>
+            </div>
+            <div>
+                <h5>1pm - 4pm</h5>
+                <h6>A curated selection of Japanese antiques</h6>
+                <p>This program will take place in classroom B</p>
+            </div>
+            <div>
+                <h5>4:30 - 6pm</h5>
+                <h6>Know Antiques roadshow appraiser from exper</h6>
+                <p>Owing to the claims of duty or the obligation</p>
+            </div>
             <!-- GRID DE TROIS COLONNES AVEC GRID GAP -->
         </section>
 
@@ -101,20 +150,33 @@
 
         <!-- section 4 images, pt en grid -->
         <section class="gallerie">
-            <h2></h2>
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+            <h2>Gallery</h2>
+            <img src="images/event-d-g-1.jpg" alt="image of 3 antiques mens">
+            <img src="images/event-d-g-2.jpg" alt="image of a man fighting a strange octopus">
+            <img src="images/event-d-g-3.jpg" alt="Image of antique japanese people riding horses ">
+            <img src="images/event-d-g-4.jpg" alt="Image of 2 antique japanese people under the rain">
         </section>
 
 
 
         <!-- infos de l'adresse et carte maps -->
         <section class="contact-info">
-            <div class="adresse"></div>
-            <div class="map"></div>
+            <h3>Contact information</h3>
+            <div class="adresse">
+                <p>Do you have any query about this event pls contact our team.</p>
+                <h5>Address:</h5>
+                <p>61 Wellfield Road Roath, 2nd Str, Cardiff <br> CF24002 3DG</p>
+                <h5>Phone:</h5>
+                <p>321 (888) 789-0123 & 4567</p>
+                <h5>Email:</h5>
+                <p>egyptmuseumevent@exemple.com</p>
+            </div>
+            <div class="map">
+                <img src="images/map-contact-us.png" alt="Google map">
+            </div>
         </section>
+
+        <hr>
 
 
 
