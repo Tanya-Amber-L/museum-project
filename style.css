@@ -6,7 +6,6 @@
     padding: 0px;
 }
 
-
 .navbar{
     background-color: rgba(48,46,47,1);
     height: 200px;
@@ -46,8 +45,7 @@
     color: #D99578;
 }
 
-
-.media-icons {
+.header__media-icons {
     display: none;
 }
 
@@ -86,8 +84,8 @@
 
 .navbar__burger-menu-desk{
     display: none;
-
 }
+
 
 /* become a member */
 
@@ -450,8 +448,6 @@
 {
     background-image: url("images/event-bg-1-1.jpg");
     padding: 5rem 1rem;
-    
-
 }
 
 .events__h2
@@ -896,7 +892,7 @@ footer {
 
 /* About us Media Queries tablette */
 
-@media screen and (min-width:768px) {
+@media screen and (min-width:768px){
     .about-us h3 {
         font-size: 2.5em;
     }
@@ -1365,6 +1361,7 @@ footer {
 .blog{
     margin-left: 2%;
     margin-right: 2%;
+    margin-bottom: 2%;
     height: 1500px;
     padding-top: 50px;
     display: grid;
