@@ -122,10 +122,6 @@
 }
 
 
-.image-hieroglyphics{
-    width: 100%;
-}
-
 .online-booking{
     display: none;
 }
@@ -386,4 +382,15 @@ footer {
 .footer__copyrights a {
     text-decoration: none;
     color: #d99578;
+}
+
+
+/* Media queries Tanya */
+@media screen and (min-width:768px) {
+
+    /* infos*/
+    .image-hieroglyphics {
+        height: 35em;
+    }
+    
 }
