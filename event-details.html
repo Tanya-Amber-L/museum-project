@@ -85,31 +85,23 @@
         <!-- section cadre avec infos -->
         <section class="infos" style="margin-left: 10%;">
 
-            <h4 class="infos__titre">Date & Time</h4>
-            <p class="infos__details"><i class="far fa-clock  icon__orange"></i> 04 Nov 2019, 10.00 to 15.00</p>
-            <h4 class="infos__titre">Location</h4>
-            <p class="infos__details"><i class="fas fa-location-arrow  icon__orange"></i> 246 King Street, NT 10011</p> 
-            <h4 class="infos__titre">Organizer</h4>
-            <p class="infos__details"><i class="fas fa-user-alt  icon__orange"></i> Egypt Historical Museum</p>
-            <h4 class="infos__titre">Ticket Cost</h4>
-            <p class="infos__details"><i class="far fa-money-bill-alt  icon__orange"></i>Adults - $15 / Childrens - $10</p>
-            <p class="infos__note"><strong>*Free for Museum Members.</strong></p>
+            <div class="infos__div">
+                <h4 class="infos__titre">Date & Time</h4>
+                <p class="infos__details"><i class="far fa-clock  icon__orange"></i> 04 Nov 2019, 10.00 to 15.00</p>
+                <h4 class="infos__titre">Location</h4>
+                <p class="infos__details"><i class="fas fa-location-arrow  icon__orange"></i> 246 King Street, NT 10011</p> 
+                <h4 class="infos__titre">Organizer</h4>
+                <p class="infos__details"><i class="fas fa-user-alt  icon__orange"></i> Egypt Historical Museum</p>
+                <h4 class="infos__titre">Ticket Cost</h4>
+                <p class="infos__details"><i class="far fa-money-bill-alt  icon__orange"></i>Adults - $15 / Childrens - $10</p>
+                <p class="infos__note"><strong>*Free for Museum Members.</strong></p>
+            </div>
             <img src="images/event-d-1-1.jpg" alt="hieroglyphics" class="image-hieroglyphics">
         </section>
 
 
 
-        <!-- Online booking  -->
-        <section class="online-booking">
-            <h3>Online Booking</h3>
-            <input type="text" placeholder="Your Name">
-            <input type="text" placeholder="Email Address">
-            <button> - </button> <input type="numbers" placeholder="0"> <button> + </button>
-            <input type="text" placeholder="Childrens">
-            <input type="text" placeholder="Description">
-            <button>PROCEED TO BOOK</button>
-        </section>
-
+       
         <!-- section deetails -->
         <section class="details">
             <h3>Details About Event</h3>
@@ -177,6 +169,20 @@
 
         <hr>
 
+        <!-- Online booking  -->
+        <section class="online-booking">
+            <h3 class="online-booking__title">Online Booking</h3>
+            <input class="online-booking__input" type="text" placeholder="Your Name">
+            <input class="online-booking__input" type="text" placeholder="Email Address">
+            <div class="online-booking__number">
+                <button class="online-booking__number__button"> - </button> 
+                <input class="online-booking__number__input" type="numbers" placeholder="0"> 
+                <button class="online-booking__number__button"> + </button>
+            </div>
+            <input class="online-booking__input__children" type="text" placeholder="Childrens">
+            <input class="online-booking__input" type="text" placeholder="Description">
+            <button class="online-booking__button">PROCEED TO BOOK</button>
+        </section>
 
 
 
