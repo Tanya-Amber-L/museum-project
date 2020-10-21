@@ -6,89 +6,6 @@
     padding: 0px;
 }
 
-
-.navbar{
-    background-color: rgba(48,46,47,1);
-    height: 200px;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 60% 40%;
-    grid-template-rows: 20% 20% 60%;
-}
-.navbar__time{
-    color: rgba(156, 150, 152,1);
-    text-align: center;
-    grid-row: 1/2;
-    grid-column: 1/3;
-    margin: auto;
-    margin-left: 25px;
-    margin-right: 25px;
-    font-size: 1em;
-    border-bottom: 1px solid grey;
-    padding-top: 15px;
-
-}
-
-.navbar__plan{
-    color: rgba(156, 150, 152,1);
-    text-align: center;
-    grid-row: 2/3;
-    grid-column: 1/3;
-    margin: auto;
-    margin-left: 15px;
-    margin-right: 15px;
-    font-size: 1em;
-    border-bottom: 1px solid grey;
-    padding-bottom: 15px;
-}
-
-.icon__orange{
-    color: #D99578;
-}
-
-
-.header__media-icons {
-    display: none;
-}
-
-.navbar-loupe{
-    display: none;
-}
-
-.navbar__languages{
-    display: none;
-}
-.button--orange{
-    display: none;
-}
-.navbar-links{
-    display: none;
-
-}
-
-
-.navbar__light-logo{
-    margin: auto;
-    grid-row: 3;
-    grid-column: 1;
-    padding-right: 15px;
-    padding-left: 20px;
-    border-right: 1px solid grey;
-}
-.navbar__burger-menu-mobile{
-    color: white;
-    margin: auto;
-    margin-right: 15%;
-    grid-column: 2;
-    grid-row: 3;
-    font-size: 1.5em;
-}
-
-.navbar__burger-menu-desk{
-    display: none;
-
-}
-
 /* TOP */
 
 .top
@@ -122,9 +39,7 @@
 }
 
 
-.online-booking{
-    display: none;
-}
+
 .details h3{
     font-size: 1.5em;
     padding-bottom: 20px;
@@ -174,68 +89,9 @@
     color: white;
     display: flex;
     flex-direction: column;
-}
-
-.infos__titre {
-    font-family: "Prata", serif;
-    font-size: 1.1em;
-    margin: 0.5em 1em;
-}
-
-.infos__details {
-    font-family: 'Mulish', sans-serif;
-    font-size: 01em;
-    color: rgba(156, 150, 152,1);
-    margin: 0.5em 1em;
-    padding-bottom: 1em;
-    padding-right: 2em;
-    width: max-content;
-    border-bottom: 0.01em solid rgba(156, 150, 152,1);
-}
-
-.infos__note {
-    font-family: 'Mulish', sans-serif;
-    margin: 1em;
-    margin-bottom: 2em;
-}
-
-
-
-
-/* BOUTONS */
-
-.boutons {
-    font-family: "Prata", serif;
-    margin: 3em;
-    width: 100%;
-    display:flex;
     flex-wrap: wrap;
 }
 
-.boutons a {
-    text-decoration: none;
-    color: rgba(48,46,47,1);
-    margin: 1em 0em;
-    padding: 1em 3em;
-    border-bottom: 0.01em solid rgba(156, 150, 152,1);
-}
-
-.boutons a:focus {
-    color: #D99578;
-}
-
-
-/* INFOS */
-
-.infos {
-    margin: 5%;
-    padding-top: 2em;
-    background-color: rgba(48,46,47,1);
-    color: white;
-    display: flex;
-    flex-direction: column;
-}
-
 .infos__titre {
     font-family: "Prata", serif;
     font-size: 1.1em;
@@ -258,6 +114,7 @@
     margin: 1em;
     margin-bottom: 2em;
 }
+
 
 
 
@@ -309,80 +166,46 @@
     height: 50%;
     margin-bottom: 10%;
 }
-/* FOOTER */
 
-footer {
-    width: 100vw;
+
+/* ONLINE BOOKING */
+
+.online-booking {
     height: 30em;
-    background-image: url(images/footer-bg-1-1.jpg);
+    margin: 5%;
+    padding: 2em 1.5em;
+    background-color: rgba(48,46,47,1);
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family: "Mulish", sans-serif;
-    font-size: 1em;
-    color: rgba(132,122,125,1);
-}
-
-
-/* input style  */
-
-.footer__mailinput {
-    display: flex;
-    height: 3em;
-}
-
-.footer__mailinput__icon {
-
-    background-color: #d99578;
-    color: white;
-    padding: 1em;
-}
-
-.footer__mailinput__input {
-
-    padding: 1em;
-    color: rgb(136, 136, 136, 0.7);
-    border: 0px;
-}
-
-.footer__mailinput__button {
-
-    background-color: white;
-    border: 0px;
-    width: 3em;
-}
-
-
-/* hover on the button */
-
-.footer__mailinput__button:hover {
-
-    background-color: rgb(211, 211, 211);
-}
-
-
-/* icons style */
-
-.footer__media-icons {
-    list-style-type: none;
-    display: flex; 
     justify-content: space-between;
-    font-size: 1.2em;
 }
 
-.footer__media-icons a {
-    display: inline-block;
-    padding: 0px 10px;
-    color: rgba(132,122,125,1);
+.online-booking__title {
+    font-family: "Prata", serif;
+    color: white;
+    font-size: 1.3em;
 }
 
+.online-booking__button {
+    font-family: "Mulish", sans-serif;
+    color: white;
+    background-color: #D99578;
+    height: 4em;
+    border: none;
+    border-radius: 5px;
+}
 
-/* p copyrights style */
+.online-booking__button:focus {
+    background-color: #db815b;
+}
 
-.footer__copyrights a {
-    text-decoration: none;
-    color: #d99578;
+.online-booking__input, .online-booking__number__input, .online-booking__number__button, .online-booking__input__children {
+    background-color: rgba(48,46,47,1);
+    border: 00.01em solid rgba(156, 150, 152,1);
+    color: rgba(156, 150, 152,1);
+    padding: 1em;
+    border-radius: 5px;
 }
 
 
@@ -393,5 +216,32 @@ footer {
     .image-hieroglyphics {
         height: 35em;
     }
+
+    /* online booking */
     
+    .online-booking__input__children {
+        width: 20%;
+    }
+
+    .online-booking__number {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    /* infos */
+    .infos {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px;
+        width: 60em;
+    }
+    .infos__div {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5em;
+    }
+    .image-hieroglyphics {
+        width: 30em;
+    }
 }
