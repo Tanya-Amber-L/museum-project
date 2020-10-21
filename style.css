@@ -61,6 +61,7 @@
 }
 .navbar-links{
     display: none;
+ 
 }
 .navbar-links a{
     color: white;
@@ -923,7 +924,7 @@ footer {
         font-size: 1em;
         border-bottom: 0px solid grey;
     }
-    
+  
 
     .header__media-icons {
         grid-row: 2;
@@ -1096,7 +1097,11 @@ footer {
         padding-right: 110px;
     
     }
-    
+    .navbar-links a{
+        color: white;
+        text-decoration: none;
+    }
+
     .navbar__light-logo{
         margin-left: 1%;
         grid-row: 3;
