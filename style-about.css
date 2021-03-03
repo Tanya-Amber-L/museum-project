@@ -1,0 +1,603 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap%27');
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&display=swap%27');
+
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+main
+{
+    min-width: 320px;
+}
+
+/* HEADER */
+
+
+
+/* FIN HEADER */
+
+
+/* TOP */
+.top
+{
+    display:grid;
+    grid-template-rows: 7rem auto 9rem ;
+    background-position: center;
+    background-image: url(images/inner-banner-bg-1-1.jpg);
+    height: 21rem;
+    width: 100%;
+    
+
+}
+
+.top__title 
+{
+    grid-row: 2/3;
+    color:white;
+    font-family: 'prata', sans-serif;
+    font-size: 2.3rem;
+    font-weight: 100;
+    text-align: center;
+}
+
+.top__home
+{
+    grid-row: 3/4;
+    color:white;
+    font-family: 'mulish', sans-serif;
+    font-size: 0.6em;
+    text-align: center;
+}
+
+/* FIN TOP */
+
+/* ABOUT US */
+
+.about-us
+{
+    padding-top: 20%;
+    padding-bottom: 20%;
+    margin: 0 1rem;
+}
+
+.about-us__title 
+{
+    font-family: 'mulish', sans-serif;
+    display: block;
+    width: max-content;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: #D99578 solid 2px; 
+    font-size: 0.8rem;
+    color: rgba(156, 150, 152,1);
+    margin: auto;
+}
+
+.about-us__h3
+{
+    font-family: 'prata', sans-serif;
+    font-size: 1.4rem;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.about-us__established__year
+{
+    font-family: 'prata', sans-serif;
+    font-size: 1.3rem;
+    font-weight: lighter; 
+    margin-top: 1.5rem;
+}
+
+.about-us__text
+{
+    font-family: 'mulish', sans-serif;
+    font-size: 0.8rem;
+    color: rgba(156, 150, 152,1);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.download-story__text
+{
+    font-family:'prata', sans-serif;
+    padding-top: 1.4em;
+}
+
+.download-story
+{
+    border: solid 2px black;
+    float: left;
+    padding: 0.5em; 
+}
+
+.about-us__button
+{
+    margin:2rem 0rem;
+}
+
+.about-us__button__year
+{
+    font-family: 'prata', sans-serif;
+    background-color:#EBE6E4;
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1.4rem;
+    text-align: center;
+    display: inline-block;
+    font-size: 0.8rem;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.about-us__read
+{ 
+    color:rgba(156, 150, 152,1);
+    display:block;
+    font-size: 0.8rem;
+    text-decoration: none;
+    margin-top: 1em;
+}
+
+/* FIN ABOUT US */
+
+/* DEPARTMENTS */
+
+.departments
+{
+    background-color:#DBD6D4;
+    padding-top: 7rem;
+    padding-bottom: 4rem;
+}
+
+.departments__title
+{
+    font-family: 'mulish', sans-serif;
+    display: block;
+    width: max-content;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: #D99578 solid 2px; 
+    font-size: 1rem;
+    color: rgba(156, 150, 152,1);
+    margin: auto;
+}
+
+.departments__h3
+{
+    font-family: 'prata', sans-serif;
+    font-size: 1.5rem;
+    font-weight: lighter;
+    margin-bottom:1.5rem;
+    padding:0.5rem;  
+    text-align: center;      
+}
+
+.department__list
+{
+    font-size: 0.8rem;
+    margin: 2rem 1rem;
+    background-color: white;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.department__list__list
+{
+    border-bottom:1px solid rgba(156, 150, 152,1) ;
+    font-family: 'prata', sans-serif;
+    color: #52504E;
+    list-style-type: square;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.carrer
+{
+    display: grid;
+    grid-template-rows: 10% 50% 40%;
+    text-align: center;
+    background-image: url("images/carrer-1-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 12rem;
+    margin: 1.5rem 1rem;
+}
+
+.carrer__image
+{
+    grid-row: 2/3;
+    border:2px solid white;
+    border-radius:50%;
+    justify-self: center;
+    padding: 0.5rem;
+    width: 4rem;
+
+}
+
+
+.carrer__find
+{
+    grid-row: 3/4;
+    color:white;
+    font-family: 'prata', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.carrer__jobop
+{
+    color:white;
+    font-family: 'mulish', sans-serif;
+    font-size: 0.7rem;
+}
+
+/* FIN DEPARTMENTS */
+
+/* VIDEO */
+
+.video
+{
+    display:grid;
+    grid-template-columns: 30% auto 30%;
+    grid-template-rows:20% 30% 50%;
+    margin: 4rem 1rem;
+    background: no-repeat url("images/video-2-1.jpg");
+    background-position: center;
+    height: 23rem;
+    justify-content: center;
+}
+
+.video__play-button
+{
+    grid-column: 2/3;
+    grid-row: 2/3;
+    width: 5rem;
+    justify-self: center;
+}
+
+.video__text
+{
+    color: white;
+    font-family: 'prata', sans-serif;
+    font-size: 1.7rem;
+    grid-row: 3/4;
+    grid-column: 1/4;
+    margin:0 0.5rem;
+    text-align: center;
+}
+
+.video__text__date
+{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+
+/* FIN VIDEO */
+
+
+/* BEHIND OUR MUSEUM */
+
+.board
+{
+    display:flex;
+    flex-direction: column;
+    margin: 3rem 1rem;
+}
+
+.board__title
+{
+    font-family: 'mulish', sans-serif;
+    display: block;
+    width: max-content;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: #D99578 solid 2px; 
+    font-size: 0.8rem;
+    color: rgba(156, 150, 152,1);
+    margin: auto;
+}
+
+.board__h3
+{
+    font-family: 'prata', sans-serif;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    margin-bottom:1.5rem;
+    padding:0.5rem;  
+    text-align: center;
+}
+
+.board__team-name
+{
+    font-family: 'prata', sans-serif;
+    margin:2em;
+}
+
+.board__team-job
+{
+    font-family: 'mulish', sans-serif;
+    font-size: 0.8rem;
+    padding:0.5em;
+    color: rgba(156, 150, 152,1); 
+}
+
+.board__team-photo
+{
+    align-items: center;
+}
+
+.board__team-infos
+{
+    text-align: center;
+    margin: 1rem 0;
+}
+
+.board__link
+{
+    display:block;
+    border-top: 1px solid lightgrey;
+    color: rgba(156, 150, 152,1);
+    font-family: "mulish", sans-serif;
+    font-size: 0.7rem;
+    padding-top:1.5rem;
+    padding-bottom: 1.5rem;
+    text-decoration: none;
+    text-align: center;
+}
+
+img
+{
+    width: 288px;
+}
+
+
+/* FIN BEHIND OUR MUSEUM */
+
+.download-story
+{
+    width: 2rem;
+}
+
+.play-button
+{
+    width: 4rem;  
+}
+
+
+/* FOOTER */
+
+footer {
+    width: 100vw;
+    height: 30em;
+    background-image: url(images/footer-bg-1-1.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+
+    font-family: "Mulish", sans-serif;
+    font-size: 1em;
+    color: rgba(132,122,125,1);
+}
+
+
+/* input style  */
+
+.footer__mailinput {
+    display: flex;
+    height: 3em;
+}
+
+.footer__mailinput__icon {
+
+    background-color: #d99578;
+    color: white;
+    padding: 1em;
+}
+
+.footer__mailinput__input {
+
+    padding: 1em;
+    color: rgb(136, 136, 136, 0.7);
+    border: 0px;
+}
+
+.footer__mailinput__button {
+
+    background-color: white;
+    border: 0px;
+    width: 3em;
+}
+
+
+/* hover on the button */
+
+.footer__mailinput__button:hover {
+
+    background-color: rgb(211, 211, 211);
+}
+
+
+/* icons style */
+
+.media-icons {
+    list-style-type: none;
+    display: flex; 
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+.media-icons a {
+    display: inline-block;
+    padding: 0px 10px;
+    color: rgba(132,122,125,1);
+}
+
+
+/* p copyrights style */
+
+.footer__copyrights a {
+    text-decoration: none;
+    color: #d99578;
+}
+
+
+/* MEDIA QUERIES */
+
+/* pour tablette */
+@media screen and (min-width:768px) and (max-width:1280px) {
+
+    /* section TOP */
+
+    .top
+    {
+        grid-template-rows: 8rem auto 7rem;
+    }
+    .top__title
+    {
+        font-size: 3rem;
+        grid-row: 3/4;
+        justify-self: center;
+    }
+
+    .top__home
+    {
+        font-size: 1rem;
+        grid-row: end;
+        text-align: left;
+        padding-left: 2rem;
+    }
+
+    /* section ABOUT US */
+
+    .about-us
+    {
+        margin:5rem 2rem;
+        padding: 0;
+    }
+
+    .about-us__title
+    {
+        font-size: 1rem;
+    }
+
+    .about-us__h3
+    {
+        font-size: 3rem;
+    }
+
+    .about-us__established__year
+    {
+        font-size: 1.7rem;
+        margin-top: 3rem;
+    }
+
+    .about-us__text
+    {
+        font-size: 1rem;
+    }
+
+    .download-story
+    {
+        margin-right: 1rem;
+    }
+
+    .about-us__button__year
+    {
+        font-size: 1.3rem;
+        padding: 1rem 1.5rem;
+    }
+
+    .download-story__text
+    {
+        font-size: 1rem;
+    }
+
+    /* section DEPARTMENTS */
+
+    .departments__h3
+    {
+        font-size: 3rem;
+    }
+
+    .department__list
+    {
+        display:grid;
+        grid-template-rows: repeat(6,6rem) 1fr;
+        height: 50rem;
+        margin: 2rem 2rem;
+        margin-right: 0;
+    }
+
+    .department__list__list
+    {
+        margin:0 3.5rem;
+    }
+
+    .carrer
+    {
+        display: grid;
+        grid-template-rows: 2rem auto 7rem;
+        grid-row: 7/8;
+        height:14rem;
+        background-size: 90%; 
+    }
+
+    .carrer__find
+    {
+        font-size: 1.8rem;
+    }
+
+    .carrer__jobop
+    {
+        display: block;
+        font-size: 0.8rem;
+        margin-bottom: 3rem;
+        margin-top: 1rem;
+    }
+
+    /* section VIDEO */
+
+    .video
+    {
+        margin:0 2rem;
+    }
+
+    /* sectiton BOARD */
+
+    .board
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 5rem 6rem 27rem 27rem;
+        margin:auto;
+        margin:0 2rem;
+        padding-bottom: 3rem;
+        padding-top: 5rem;
+
+    }
+
+    .board__title
+    {
+        font-size: 1rem;
+        grid-column: 1/3;
+    }
+
+    .board__h3
+    {
+        font-size: 3rem;
+        grid-column: 1/3;      
+    }
+
+    .board__team-photo
+    {
+        margin: auto;
+    }
+
+}

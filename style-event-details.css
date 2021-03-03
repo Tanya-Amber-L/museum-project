@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500&display=swap');
+
+* {
+    margin:0px;
+    padding: 0px;
+}
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 0d4618f441085e92c9ef560976323dbd4fce61d8
+/* TOP */
+
+.top
+{
+    display: grid;
+    grid-template-rows: 5.5rem auto 5.5rem;
+    background-image: url("images/inner-banner-bg-1-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 21rem;
+    min-width: 320px;
+}
+
+.top__h1
+{
+    color:white;
+    font-family: 'prata', sans-serif;
+    font-size: 2.2rem;
+    font-weight: 100;
+    grid-row: 2/3;
+    text-align: center;
+}
+
+.top__h2
+{
+    color:white;
+    font-family: 'Mulish', sans-serif;
+    font-size: 0.7rem;
+    grid-row: 3/4;
+    text-align: center;
+}
+
+
+
+.details h3{
+    font-size: 1.5em;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+.details p{
+    opacity: 50%;
+    line-height: 25px;
+    padding-bottom: 20px;
+}
+.calendrier h3{
+    font-size: 1.5em;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+/* BOUTONS */
+
+.boutons {
+    font-family: "Prata", serif;
+    margin: 3em;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.boutons a {
+    text-decoration: none;
+    color: rgba(48,46,47,1);
+    margin: 1em 0em;
+    padding: 1em 3em;
+    border-bottom: 0.01em solid rgba(156, 150, 152,1);
+}
+
+.boutons a:focus {
+    color: #D99578;
+}
+
+
+/* INFOS */
+
+.infos {
+    margin: 5%;
+    padding-top: 2em;
+    background-color: rgba(48,46,47,1);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.infos__titre {
+    font-family: "Prata", serif;
+    font-size: 1.1em;
+    margin: 0.5em 1em;
+}
+
+.infos__details {
+    font-family: 'Mulish', sans-serif;
+    font-size: 01em;
+    color: rgba(156, 150, 152,1);
+    margin: 0.5em 1em;
+    padding-bottom: 1em;
+    padding-right: 2em;
+    width: max-content;
+    border-bottom: 0.01em solid rgba(156, 150, 152,1);
+}
+
+.infos__note {
+    font-family: 'Mulish', sans-serif;
+    margin: 1em;
+    margin-bottom: 2em;
+}
+
+
+
+
+
+.calendrier h5{
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    border-bottom:1px solid rgba(156, 150, 152,1);
+    margin-left: 5%;
+    margin-right: 5%;
+    opacity: 50%;
+}
+.calendrier h6{
+    text-align: center;
+    font-size: 1.2em;
+    padding-bottom: 15px;
+    opacity: 70%;
+}
+.calendrier p{
+    font-size: 0.9em;
+    text-align: center;
+    margin-bottom: 25%;
+    opacity: 50%;
+}
+
+.gallerie h2{
+    font-size: 2em;
+    padding-bottom: 10%;
+}
+.gallerie img{
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+.contact-info h3{
+    font-size: 1.5em;
+    margin-bottom: 5%;
+    opacity: 50%;
+}
+.contact-info p{
+    line-height: 25px;
+    margin-bottom: 10%;
+    opacity: 50%;
+
+}
+.contact-info h5{
+    margin-bottom: 2%;
+    font-size: 1em;
+    text-transform: uppercase;
+    opacity: 50%;
+
+}
+.map img{
+    height: 50%;
+    margin-bottom: 10%;
+}
+
+
+/* ONLINE BOOKING */
+
+.online-booking {
+    height: 30em;
+    margin: 5%;
+    padding: 2em 1.5em;
+    background-color: rgba(48,46,47,1);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.online-booking__title {
+    font-family: "Prata", serif;
+    color: white;
+    font-size: 1.3em;
+}
+
+.online-booking__button {
+    font-family: "Mulish", sans-serif;
+    color: white;
+    background-color: #D99578;
+    height: 4em;
+    border: none;
+    border-radius: 5px;
+}
+
+.online-booking__button:focus {
+    background-color: #db815b;
+}
+
+.online-booking__input, .online-booking__number__input, .online-booking__number__button, .online-booking__input__children {
+    background-color: rgba(48,46,47,1);
+    border: 00.01em solid rgba(156, 150, 152,1);
+    color: rgba(156, 150, 152,1);
+    padding: 1em;
+    border-radius: 5px;
+}
+
+
+/* Media queries Tanya */
+@media screen and (min-width:768px) {
+
+    /* infos*/
+    .image-hieroglyphics {
+        height: 35em;
+    }
+
+<<<<<<< HEAD
+    /* online booking */
+    
+    .online-booking__input__children {
+        width: 20%;
+    }
+
+    .online-booking__number {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width:1280px) {
+    /* infos */
+    .infos {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px;
+        width: 60em;
+    }
+    .infos__div {
+        display: flex;
+        flex-direction: column;
+        padding: 1.5em;
+    }
+    .image-hieroglyphics {
+        width: 30em;
+    }
+=======
+    
+    .calendrier h5{ 
+        text-align: left;
+        border-bottom:none;
+        border-right: 1px solid rgba(132,122,125,1);
+        margin-right: 75%;
+        padding-top: 10px;
+    }
+    .calendrier h6{
+        margin-top: -7%;
+        margin-bottom: 10px;
+        text-align: left;
+        font-size: 1em;
+        margin-left: 35%;
+        padding: 0;
+    }
+    .calendrier p{
+        margin-bottom: 10%;
+        text-align: left;
+        font-size: 1em;
+        margin-left: 35%;
+    }
+
+    .gallerie img{
+        margin-bottom: 1%;
+        margin-top: 0%;
+    }
+    .contact-info h3{
+        font-size: 1.5em;
+        margin-bottom: 5%;
+    }
+    .contact-info p{
+        margin-bottom: 2%;
+    }
+
+
+
+}
+
+@media screen and (min-width:1280px){
+    .image-hieroglyphics{
+        width: 50%;
+    }
+    .calendrier h5{
+        margin-right: 85%;
+    }
+ 
+    .calendrier h6{
+        margin-top: -3%;
+        margin-left: 20%;
+        font-size: 1.5em;
+        padding: 0;
+    }
+    .calendrier p{
+        margin-bottom: 3%;
+        margin-left: 20%;
+        padding: 0;
+    }
+    
+    .gallerie{
+        margin-left: 10%;
+        width: 50%;
+    }
+    .gallerie h2{
+        margin-left: -18%;
+    }
+   
+    .contact-info h3{
+        margin-bottom: 0%;
+    }
+    .contact-info h5{
+        margin-bottom: 0;
+    }
+    .map img{
+        height: 50%;
+        margin-bottom: 10%;
+    }
+
+>>>>>>> 0d4618f441085e92c9ef560976323dbd4fce61d8
+}
