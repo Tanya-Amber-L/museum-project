@@ -6,6 +6,12 @@
     padding: 0px;
 }
 
+body {
+    width: 100vw;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 .navbar{
     background-color: rgba(48,46,47,1);
     height: 200px;
@@ -158,7 +164,7 @@
     height: 1000px;
     width: 100%;
     background-image: linear-gradient(76deg, rgba(0,0,0,0.8) 0%, rgba(210,147,120,1) 100%),
-                     url(images/video-bg-1-1.jpg);
+                        url(images/video-bg-1-1.jpg);
     background-position: center;
     display: grid;
     grid-template-rows: 40% 20% 20% 15% 5%;
@@ -569,7 +575,10 @@
 
 .discover
 {
+    overflow: hidden;
     padding: 10rem 1rem;
+    display: flex;
+    flex-direction: column;
     justify-items: center;
 }
 
@@ -584,6 +593,7 @@
     font-size: 0.8rem;
     color: rgba(156, 150, 152,1);    
     margin:auto;
+
 }
 
 .discover__h3
@@ -594,81 +604,10 @@
     margin-bottom: 3rem;
     text-align: center;
 }
-
-.discover__collections
-{
-    grid-column: 1/3;
-    width: 95%;
-    box-shadow: 1rem 1rem #E5E2DE;
+.collection-container {
+    display: flex;
+    width: 100vw;
 }
-
-.discover__picture-1
-{
-    display: grid;
-    grid-template-rows: 12rem 2.5rem;
-    grid-template-columns: 1fr 2rem;
-    height: 20rem;
-}
-
-.discover__picture__deco
-{
-    width: 4rem;
-    grid-row: 3/4;
-    text-align: right;
-    justify-self: right;
-}
-
-.discover__picture__descript
-{
-    grid-row: 2/3;
-    color: white;
-    font-family: 'prata', sans-serif;
-    font-weight: bold;
-    margin-left:1rem;
-}
-
-.discover__picture-2
-{
-    display: grid;
-    grid-template-rows: 23rem 2rem;
-    grid-template-columns: 1fr 2rem;
-    height: 30rem;
-}
-
-.discover__picture-3
-{
-    display: grid;
-    grid-template-rows: 8rem 2rem 1fr;
-    grid-template-columns: 1fr 2rem;
-    height: 17rem;
-}
-
-.discover__picture-4
-{
-    display: grid;
-    grid-template-rows: 8rem 2rem 1fr;
-    grid-template-columns: 1fr 2rem;
-    height: 17rem;
-}
-
-
-.discover__picture-5
-{
-    display: grid;
-    grid-template-rows: 22rem 3rem 1fr;
-    grid-template-columns: 1fr 2rem;
-    height: 30rem;
-}
-
-.discover__picture-6
-{
-    display: grid;
-    grid-template-rows: 5rem 1rem 1fr;
-    grid-template-columns: 1fr 2rem;
-    height: 15rem;
-}
-
-
 
 
 .all-collection
@@ -750,6 +689,7 @@
 /* blog  */
 
 .blog{
+    overflow: hidden;
     padding-top: 100px;
 }
 
@@ -840,6 +780,7 @@
 
 footer {
     width: 100vw;
+    max-width: 100%;
     height: 30em;
     background-image: url(images/footer-bg-1-1.jpg);
     display: flex;
@@ -1298,7 +1239,6 @@ footer {
 .become-a-member__button{
     margin-left: 7%;
     height: 200px;
-    width: 650px;
     grid-row: 8;
 }
 

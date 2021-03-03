@@ -8,6 +8,7 @@
 
 footer {
     width: 100vw;
+    max-width: 100%;
     height: 30em;
     background-image: url(images/footer-bg-1-1.jpg);
     display: flex;

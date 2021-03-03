@@ -19,6 +19,8 @@ The header links references are: <br>
 * What's on => event-detail.html <br>
 * Pages => Nothing
 
+Date: End Octobre 2020.
+
 ## My work on this project
 => The parts I did: <br>
 *About us, Exhibition, Testimonials* sections on the Home page. <br>
